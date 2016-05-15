@@ -1,0 +1,24 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+
+    <string name="app_name">Controller</string>
+
+    <!-- Used in Publisherr.java -->
+       <string name="pub_displayed_name">talker</string>
+       <string name="pub_topic">/com_cmd</string>
+
+       <string name="pub_message_type">msgs/Cmd</string>
+    <!-- Used in Controller.java -->
+       <string name="sub_data_topic">/vision_data</string>
+       <string name="sub_image_topic">/front_cam/image/compressed</string>
+        <!-- For displaying Kick message-->
+       <string name="kick_range">0.155</string>
+
+
+    <!-- Used in main.xml-->
+    <string name="text_field">Enter message</string>
+    <string name="joystick_x">X</string>
+    <string name="joystick_y">Y</string>
+
+
+</resources>

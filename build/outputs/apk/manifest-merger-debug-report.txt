@@ -1,0 +1,109 @@
+-- Merging decision tree log ---
+manifest
+ADDED from AndroidManifest.xml:2:1
+	xmlns:android
+		ADDED from AndroidManifest.xml:2:11
+	package
+		ADDED from AndroidManifest.xml:3:7
+		INJECTED from AndroidManifest.xml:0:0
+		INJECTED from AndroidManifest.xml:0:0
+	android:versionName
+		ADDED from AndroidManifest.xml:5:7
+		INJECTED from AndroidManifest.xml:0:0
+		INJECTED from AndroidManifest.xml:0:0
+	android:versionCode
+		ADDED from AndroidManifest.xml:4:7
+		INJECTED from AndroidManifest.xml:0:0
+		INJECTED from AndroidManifest.xml:0:0
+uses-permission#android.permission.INTERNET
+ADDED from AndroidManifest.xml:7:5
+	android:name
+		ADDED from AndroidManifest.xml:7:22
+uses-permission#android.permission.WAKE_LOCK
+ADDED from AndroidManifest.xml:8:5
+MERGED from org.ros.android_core:android_10:0.2.0:15:5
+	android:name
+		ADDED from AndroidManifest.xml:8:22
+uses-permission#android.permission.SYSTEM_ALERT_WINDOW
+ADDED from AndroidManifest.xml:9:5
+MERGED from org.ros.android_core:android_10:0.2.0:16:5
+	android:name
+		ADDED from AndroidManifest.xml:9:22
+application
+ADDED from AndroidManifest.xml:12:5
+MERGED from com.android.support:support-v4:23.2.0:22:5
+MERGED from org.ros.android_core:android_10:0.2.0:18:5
+MERGED from com.android.support:support-v4:23.2.0:22:5
+	android:label
+		ADDED from AndroidManifest.xml:12:18
+	android:icon
+		ADDED from org.ros.android_core:android_10:0.2.0:19:9
+	android:largeHeap
+		ADDED from AndroidManifest.xml:13:9
+activity#com.github.ros_java.android_ROS.controller.Controller
+ADDED from AndroidManifest.xml:15:9
+	android:screenOrientation
+		ADDED from AndroidManifest.xml:17:19
+	android:label
+		ADDED from AndroidManifest.xml:16:19
+	android:name
+		ADDED from AndroidManifest.xml:15:19
+intent-filter#android.intent.action.MAIN+android.intent.category.LAUNCHER
+ADDED from AndroidManifest.xml:18:13
+action#android.intent.action.MAIN
+ADDED from AndroidManifest.xml:19:17
+	android:name
+		ADDED from AndroidManifest.xml:19:25
+category#android.intent.category.LAUNCHER
+ADDED from AndroidManifest.xml:20:17
+	android:name
+		ADDED from AndroidManifest.xml:20:27
+activity#org.ros.android.MasterChooser
+ADDED from AndroidManifest.xml:24:9
+MERGED from org.ros.android_core:android_10:0.2.0:21:9
+	android:label
+		ADDED from org.ros.android_core:android_10:0.2.0:23:13
+	android:name
+		ADDED from AndroidManifest.xml:24:19
+	android:launchMode
+		ADDED from org.ros.android_core:android_10:0.2.0:24:13
+service#org.ros.android.NodeMainExecutorService
+ADDED from AndroidManifest.xml:26:9
+MERGED from org.ros.android_core:android_10:0.2.0:26:9
+	android:name
+		ADDED from AndroidManifest.xml:26:18
+	tools:ignore
+		ADDED from org.ros.android_core:android_10:0.2.0:28:13
+intent-filter#org.ros.android.NodeMainExecutorService
+ADDED from AndroidManifest.xml:27:13
+action#org.ros.android.NodeMainExecutorService
+ADDED from AndroidManifest.xml:28:17
+	android:name
+		ADDED from AndroidManifest.xml:28:25
+uses-sdk
+INJECTED from AndroidManifest.xml:0:0 reason: use-sdk injection requested
+MERGED from org.ros.android_core:android_15:0.2.0:8:5
+MERGED from com.android.support:support-v4:23.2.0:20:5
+MERGED from org.ros.android_core:android_10:0.2.0:8:5
+MERGED from com.github.rosjava.android_extras:gingerbread:0.2.0:8:5
+MERGED from com.android.support:support-v4:23.2.0:20:5
+	android:targetSdkVersion
+		INJECTED from AndroidManifest.xml:0:0
+		INJECTED from AndroidManifest.xml:0:0
+	android:minSdkVersion
+		INJECTED from AndroidManifest.xml:0:0
+		INJECTED from AndroidManifest.xml:0:0
+uses-permission#android.permission.WRITE_EXTERNAL_STORAGE
+ADDED from org.ros.android_core:android_10:0.2.0:12:5
+	android:name
+		ADDED from org.ros.android_core:android_10:0.2.0:12:22
+uses-permission#android.permission.ACCESS_WIFI_STATE
+ADDED from org.ros.android_core:android_10:0.2.0:13:5
+	android:name
+		ADDED from org.ros.android_core:android_10:0.2.0:13:22
+uses-permission#android.permission.CHANGE_WIFI_STATE
+ADDED from org.ros.android_core:android_10:0.2.0:14:5
+	android:name
+		ADDED from org.ros.android_core:android_10:0.2.0:14:22
+android:uses-permission#android.permission.READ_EXTERNAL_STORAGE
+IMPLIED from AndroidManifest.xml:2:1 reason: org.ros.android.android_10 requested WRITE_EXTERNAL_STORAGE

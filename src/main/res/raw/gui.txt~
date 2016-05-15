@@ -1,0 +1,15 @@
+inputs:
+	-type: slider
+	-type: joysticks
+	-type: button
+publisher:
+	-topic: /com_cmd
+	-msg_type: msgs/Cmd
+
+listener:
+	-topic: /vision_data
+	-msg_type: msgs/ImageData
+	
+image_listener:
+	-topic: /front_cam/image/compressed
+

@@ -1,0 +1,6 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <!-- From: file:/opt/android_core/src/android_extras/gingerbread/src/main/res/values/strings.xml -->
+    <eat-comment/>
+    <string name="app_name">ACTIVITY_ENTRY_NAME</string>
+</resources>

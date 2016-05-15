@@ -1,0 +1,2 @@
+<?xml version="1.0" encoding="utf-8"?>
+<merger version="3"><dataSet config="main"><source path="/home/viki/ROS_Controller/src/android_ROS/controller/src/androidTest/res"/><source path="/home/viki/ROS_Controller/src/android_ROS/controller/build/generated/res/rs/test/debug"/><source path="/home/viki/ROS_Controller/src/android_ROS/controller/build/generated/res/generated/test/debug"/></dataSet><mergedItems/></merger>
