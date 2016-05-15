@@ -11,7 +11,8 @@ This app provides a connection between a robot using ROS and an Android phone. T
 
 This is an example using a CompressedImage and ImageData subscriber with a /com_cmd publisher. The slider is for controlling speed.
 
-![Ros Controller](controller/screenshots/Screenshot1.png?raw=true "Ros controller")
+
+![Ros Controller](/screenshots/Screenshot1.png?raw=true "Ros controller")
 
 
 
