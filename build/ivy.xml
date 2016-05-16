@@ -1,0 +1,45 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<ivy-module version="2.0" xmlns:m="http://ant.apache.org/ivy/maven">
+  <info organisation="com.github.rosjava.android_ros" module="controller" revision="0.1.0" status="integration" publication="20160515054636">
+    <description/>
+  </info>
+  <configurations>
+    <conf name="_debugApk" visibility="private" description="## Internal use, do not manually configure ##" extends="apk,compile,debugApk,debugCompile"/>
+    <conf name="_debugCompile" visibility="private" description="## Internal use, do not manually configure ##" extends="compile,debugCompile,debugProvided,provided"/>
+    <conf name="_debugTestApk" visibility="private" description="## Internal use, do not manually configure ##" extends="androidTestApk,androidTestCompile"/>
+    <conf name="_debugTestCompile" visibility="private" description="## Internal use, do not manually configure ##" extends="androidTestCompile,androidTestProvided"/>
+    <conf name="_releaseApk" visibility="private" description="## Internal use, do not manually configure ##" extends="apk,compile,releaseApk,releaseCompile"/>
+    <conf name="_releaseCompile" visibility="private" description="## Internal use, do not manually configure ##" extends="compile,provided,releaseCompile,releaseProvided"/>
+    <conf name="androidJacocoAgent" visibility="private" description="The Jacoco agent to use to get coverage data."/>
+    <conf name="androidJacocoAnt" visibility="private" description="The Jacoco ant tasks to use to get execute Gradle tasks."/>
+    <conf name="androidTestApk" visibility="private" description="Classpath packaged with the compiled 'androidTest' classes."/>
+    <conf name="androidTestCompile" visibility="private" description="Classpath for compiling the androidTest sources."/>
+    <conf name="androidTestProvided" visibility="private" description="Classpath for only compiling the androidTest sources."/>
+    <conf name="androidTestWearApp" visibility="private" description="Link to a wear app to embed for object 'androidTest'."/>
+    <conf name="apk" visibility="private" description="Classpath packaged with the compiled 'main' classes."/>
+    <conf name="archives" visibility="public" description="Configuration for archive artifacts."/>
+    <conf name="compile" visibility="private" description="Classpath for compiling the main sources."/>
+    <conf name="debugApk" visibility="private" description="Classpath packaged with the compiled 'debug' classes."/>
+    <conf name="debugCompile" visibility="private" description="Classpath for compiling the debug sources."/>
+    <conf name="debugProvided" visibility="private" description="Classpath for only compiling the debug sources."/>
+    <conf name="debugWearApp" visibility="private" description="Link to a wear app to embed for object 'debug'."/>
+    <conf name="default" visibility="public" description="Configuration for default artifacts."/>
+    <conf name="provided" visibility="private" description="Classpath for only compiling the main sources."/>
+    <conf name="releaseApk" visibility="private" description="Classpath packaged with the compiled 'release' classes."/>
+    <conf name="releaseCompile" visibility="private" description="Classpath for compiling the release sources."/>
+    <conf name="releaseProvided" visibility="private" description="Classpath for only compiling the release sources."/>
+    <conf name="releaseWearApp" visibility="private" description="Link to a wear app to embed for object 'release'."/>
+    <conf name="wearApp" visibility="private" description="Link to a wear app to embed for object 'main'."/>
+  </configurations>
+  <publications>
+    <artifact name="controller" type="apk" ext="apk" conf="archives,default"/>
+  </publications>
+  <dependencies>
+    <dependency org="org.ros.android_core" name="android_15" rev="[0.2,0.3)" conf="compile-&gt;default"/>
+    <dependency org="com.github.rosjava.android_extras" name="gingerbread" rev="[0.2,0.3)" conf="compile-&gt;default"/>
+    <dependency org="org.ros.rosjava_messages" name="tf2_msgs" rev="[0.5,0.6)" conf="compile-&gt;default"/>
+    <dependency org="com.android.support" name="support-v4" rev="23.2.0" conf="compile-&gt;default"/>
+    <exclude org="junit" module="*" artifact="*" type="*" ext="*" conf="compile" matcher="exact"/>
+    <exclude org="xml-apis" module="*" artifact="*" type="*" ext="*" conf="compile" matcher="exact"/>
+  </dependencies>
+</ivy-module>

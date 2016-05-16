@@ -21,7 +21,8 @@ public class Listener{
     public RosTextView<ImageData> rosTextView;
     private String displayed_message;
     private double lastChanceToKick;
-    private double shootingRange;
+    private String topic;
+    private String msgTyp;
 
 
 
@@ -32,7 +33,7 @@ public class Listener{
 
     public void defineTextViews() {
         rosTextView = (RosTextView<ImageData>) app.findViewById(R.id.text);
-        rosTextView.setTopicName(app.getString(R.string.sub_data_topic));
+        rosTextView.setTopicName(topic);
 
         rosTextView.setMessageType(ImageData._TYPE);
         displayed_message = "";
@@ -66,6 +67,16 @@ public class Listener{
             }
         });
     }
+    public void setTopic(String newTop) {
+        this.topic = newTop;
+    }
+
+    public void setMsgTyp(String msgTyp) {
+        this.msgTyp = msgTyp;
+    }
+
+
+
     //Hides the displayed message after a sec
     public void hideMessageDelay() {
         if(System.currentTimeMillis() - lastChanceToKick > 1000) {
@@ -73,5 +84,6 @@ public class Listener{
             displayed_message = "";
         }
     }
+
 
 }

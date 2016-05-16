@@ -26,8 +26,8 @@ public class Controller extends RosActivity implements Thread.UncaughtExceptionH
 
     //Publisher and talker
 
-    private static Listener listener;
     public static List<Publisherr> publisherrList;
+    public static List<Listener> listenerList;
 
     double blueLeftX;
     double blueRightX;
@@ -79,11 +79,7 @@ public class Controller extends RosActivity implements Thread.UncaughtExceptionH
         */
         
 
-        //defines publisher class
-        if(appsettings.hasSub) {
-            listener = new Listener(this);
 
-        }
 
 
     }
@@ -121,8 +117,8 @@ public class Controller extends RosActivity implements Thread.UncaughtExceptionH
         nodeConfiguration.setMasterUri(getMasterUri());
 
         //starts subscribers and publishers
-        if(appsettings.hasSub) {
-            nodeMainExecutor.execute(listener.rosTextView, nodeConfiguration);
+        if(listenerList.size() > 0) {
+            nodeMainExecutor.execute(listenerList.get(0).rosTextView, nodeConfiguration);
         }
 
         for (Publisherr pub: publisherrList
@@ -132,9 +128,6 @@ public class Controller extends RosActivity implements Thread.UncaughtExceptionH
         if(appsettings.hasImg) {
             nodeMainExecutor.execute(ViewManager.rosImageView, nodeConfiguration);
         }
-
-
-
     }
 
     @Override

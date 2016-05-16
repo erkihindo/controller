@@ -1,0 +1,9 @@
+<component name="libraryTable">
+  <library name="joystickview">
+    <CLASSES>
+      <root url="jar://$PROJECT_DIR$/libs/joystickview.jar!/" />
+    </CLASSES>
+    <JAVADOC />
+    <SOURCES />
+  </library>
+</component>

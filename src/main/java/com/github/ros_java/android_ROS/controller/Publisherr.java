@@ -27,16 +27,16 @@ public class Publisherr extends AbstractNodeMain {
     Context app;
     private String msg_type;
     List<String> datas;
+    int waitTime= 100;
 
-    public Publisherr(Context c) {
-        this.app = c;
-        this.topic_name = app.getString(R.string.pub_topic);
-        
-    }
+
 
     public Publisherr(Context c, String topic) {
         this.app = c;
         this.topic_name = topic;
+    }
+    public void setWaitTime(String time) {
+        this.waitTime = Integer.parseInt(time);
     }
 
     public void setMsgType(String msg_type) {
@@ -61,24 +61,27 @@ public class Publisherr extends AbstractNodeMain {
         connectedNode.executeCancellableLoop(new CancellableLoop() {
             protected void loop() throws InterruptedException {
                 //compose and send off message
-                if(msg_type.equals("msgs/Cmd"))
-                    publisher.publish(createCmdMessage(publisher));
-                else if(msg_type.equals("std_msgs/Bool"))
-                    publisher.publish(createBoolMessage(publisher));
-                else if(msg_type.equals("std_msgs/Int32"))
-                    publisher.publish(createIntMessage(publisher));
-                else if(msg_type.equals("std_msgs/String"))
-                    publisher.publish(createStringMessage(publisher));
-                else if(msg_type.equals("std_msgs/Float32"))
-                    publisher.publish(createFloatMessage(publisher));
-                else if(msg_type.equals("std_msgs/Byte"))
-                    publisher.publish(createByteMessage(publisher));
-                else if(msg_type.equals("std_msgs/Char"))
-                    publisher.publish(createCharMessage(publisher));
+                chooseAndSendMessage(publisher);
 
-                Thread.sleep(100L);
+                Thread.sleep(waitTime);
             }
         });
+    }
+    private void chooseAndSendMessage(Publisher publisher) {
+        if(msg_type.equals("msgs/Cmd"))
+            publisher.publish(createCmdMessage(publisher));
+        else if(msg_type.equals("std_msgs/Bool"))
+            publisher.publish(createBoolMessage(publisher));
+        else if(msg_type.equals("std_msgs/Int32"))
+            publisher.publish(createIntMessage(publisher));
+        else if(msg_type.equals("std_msgs/String"))
+            publisher.publish(createStringMessage(publisher));
+        else if(msg_type.equals("std_msgs/Float32"))
+            publisher.publish(createFloatMessage(publisher));
+        else if(msg_type.equals("std_msgs/Byte"))
+            publisher.publish(createByteMessage(publisher));
+        else if(msg_type.equals("std_msgs/Char"))
+            publisher.publish(createCharMessage(publisher));
     }
 
     public Cmd createCmdMessage(Publisher publisher) {

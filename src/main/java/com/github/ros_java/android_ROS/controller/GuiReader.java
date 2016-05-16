@@ -2,8 +2,15 @@ package com.github.ros_java.android_ROS.controller;
 
 import android.app.Activity;
 import android.content.res.Resources;
+import android.os.Environment;
 import android.util.Log;
 
+import org.ros.android.RosActivity;
+
+import java.io.BufferedReader;
+import java.io.File;
+import java.io.FileReader;
+import java.io.IOException;
 import java.io.InputStream;
 import java.util.ArrayList;
 import java.util.Arrays;
@@ -13,16 +20,15 @@ import java.util.List;
  * Created by viki on 5/12/16.
  */
 public class GuiReader {
-    Activity app;
+    RosActivity app;
 
 
+    String readFile;
 
-    public static boolean hasPub = false;
-    public static boolean hasSub = false;
+
     public static boolean hasImg = false;
 
 
-    public static String displayedName = "ERKI ROS";
     public static String pubTopic;
     public static String subTopic;
     public static String imgTopic;
@@ -31,11 +37,89 @@ public class GuiReader {
     public static String subTyp;
 
     public static Publisherr newPub;
+    public static Listener newSub;
 
-    public GuiReader(Activity _activity) {
-        String result;
+    public GuiReader(RosActivity _activity) {
+
         this.app = _activity;
         ViewManager.app = _activity;
+
+        if(!readFromSD()) {
+            readFromRAW();
+        }
+        goThroughFile();
+    }
+
+    private boolean readFromSD() {
+        File sdcard = Environment.getExternalStorageDirectory();
+
+//Get the text file
+        File file = new File(sdcard,"gui.txt");
+
+//Read text from file
+        StringBuilder text = new StringBuilder();
+
+        try {
+            BufferedReader br = new BufferedReader(new FileReader(file));
+            String line;
+
+            while ((line = br.readLine()) != null) {
+                text.append(line);
+                text.append('\n');
+            }
+            br.close();
+        }
+        catch (IOException e) {
+            //You'll need to add proper error handling here
+            System.out.println(e);
+            return false;
+        }
+
+        if(text.length() < 1) {
+            System.out.println("empty sd file");
+            return false;
+        }
+        readFile = text.toString();
+
+
+
+
+        return true;
+    }
+
+    private void goThroughFile() {
+        String[] splittedFile = readFile.split("\n");
+        List<String> list = new ArrayList<String>(Arrays.asList(splittedFile));
+
+        for(int listIterator = 0; listIterator < list.size(); listIterator++) {
+            Log.i("File", list.get(listIterator));
+            if(list.get(listIterator).equals("inputs:")) {
+                list.remove(listIterator);
+                inputHandler(list);
+                listIterator--;
+            } else if(list.get(listIterator).equals("publisher:")) {
+                list.remove(listIterator);
+                publisherHandler(list);
+                listIterator--;
+            } else if(list.get(listIterator).equals("listener:")) {
+                list.remove(listIterator);
+                listenerHandler(list);
+                listIterator--;
+            } else if(list.get(listIterator).equals("image_listener:")) {
+                list.remove(listIterator);
+                imageHandler(list);
+                listIterator--;
+            } else {
+                Log.i("Reading error", "Unknown line: " + list.get(listIterator));
+                list.remove(listIterator);
+                listIterator--;
+            }
+
+
+        }
+    }
+
+    private void readFromRAW() {
         try {
 
             Resources res = app.getResources();
@@ -43,43 +127,11 @@ public class GuiReader {
 
             byte[] b = new byte[in_s.available()];
             in_s.read(b);
-            result = new String(b);
-            String[] splittedFile = result.split("\n");
-            List<String> list = new ArrayList<String>(Arrays.asList(splittedFile));
-
-            for(int listIterator = 0; listIterator < list.size(); listIterator++) {
-                Log.i("File", list.get(listIterator));
-                if(list.get(listIterator).equals("inputs:")) {
-                    list.remove(listIterator);
-                    inputHandler(list);
-                    listIterator--;
-                } else if(list.get(listIterator).equals("publisher:")) {
-                    list.remove(listIterator);
-                    publisherHandler(list);
-                    listIterator--;
-                } else if(list.get(listIterator).equals("listener:")) {
-                    list.remove(listIterator);
-                    listenerHandler(list);
-                    listIterator--;
-                } else if(list.get(listIterator).equals("image_listener:")) {
-                    list.remove(listIterator);
-                    imageHandler(list);
-                    listIterator--;
-                } else {
-                    Log.i("Reading error", "Unknown line: " + list.get(listIterator));
-                    list.remove(listIterator);
-                    listIterator--;
-                }
-
-
-            }
-
-
-
+            readFile = new String(b);
 
 
         } catch (Exception e) {
-             e.printStackTrace();
+            e.printStackTrace();
             //result = "Error: can't show file.";
         }
     }
@@ -100,16 +152,19 @@ public class GuiReader {
 
     private void listenerHandler(List<String> list) {
         Log.i("Showing", "listener");
-        hasSub = true;
+
         for(int listListenerIterator = 0; listListenerIterator < list.size(); listListenerIterator++) {
             if(list.get(listListenerIterator).startsWith("\t-topic:")) {
+                newSub = new Listener(app);
                 Log.i("topic: ", list.get(listListenerIterator));
                 subTopic = list.get(listListenerIterator).substring(9);
+                newSub.setTopic(subTopic);
                 list.remove(listListenerIterator);
                 listListenerIterator--;
             } else if(list.get(listListenerIterator).startsWith("\tmsg_type:")) {
                 Log.i("msg_type: ", list.get(listListenerIterator));
                 subTyp = list.get(listListenerIterator).substring(11);
+                newSub.setMsgTyp(subTyp);
                 list.remove(listListenerIterator);
                 listListenerIterator--;
             } else {
@@ -120,7 +175,7 @@ public class GuiReader {
 
     private void publisherHandler(List<String> list) {
         Log.i("Showing", "publisher");
-        hasPub = true;
+
 
         for(int listPublisherIterator = 0; listPublisherIterator < list.size(); listPublisherIterator++) {
             if(list.get(listPublisherIterator).startsWith("\t-topic:")) {
@@ -135,6 +190,14 @@ public class GuiReader {
                 Log.i("msg_type: ", list.get(listPublisherIterator));
                 list.remove(listPublisherIterator);
                 listPublisherIterator--;
+            }  else if(list.get(listPublisherIterator).startsWith("\twait:")) {
+                String waitTime = list.get(listPublisherIterator).substring(7);
+                Log.i("wait: ", waitTime);
+
+                newPub.setWaitTime(waitTime);
+                list.remove(listPublisherIterator);
+                listPublisherIterator--;
+
             } else if(list.get(listPublisherIterator).startsWith("\tdata:")) {
                 String datas = list.get(listPublisherIterator).substring(7);
                 Log.i("datas: ", datas);
@@ -144,6 +207,7 @@ public class GuiReader {
                 list.remove(listPublisherIterator);
                 listPublisherIterator--;
                 Controller.publisherrList.add(newPub);
+
             } else {
                 break;
             }

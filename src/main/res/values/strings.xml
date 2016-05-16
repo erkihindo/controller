@@ -3,11 +3,7 @@
 
     <string name="app_name">Controller</string>
 
-    <!-- Used in Publisherr.java -->
-       <string name="pub_displayed_name">talker</string>
-       <string name="pub_topic">/com_cmd</string>
 
-       <string name="pub_message_type">msgs/Cmd</string>
     <!-- Used in Controller.java -->
        <string name="sub_data_topic">/vision_data</string>
        <string name="sub_image_topic">/front_cam/image/compressed</string>

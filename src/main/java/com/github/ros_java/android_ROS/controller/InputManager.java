@@ -107,7 +107,7 @@ public class InputManager {
             return progressBar;
         }
 
-        return 0;
+        return Float.parseFloat(request);
     }
 
     public static Byte getByte(String request) {
@@ -136,7 +136,7 @@ public class InputManager {
             return Byte.parseByte(String.valueOf(progressBar));
         }
 
-        return 0;
+        return Byte.parseByte(request);
     }
 
 
@@ -167,7 +167,7 @@ public class InputManager {
             return progressBar;
         }
 
-        return 0;
+        return Integer.parseInt(request);
     }
 
     public static boolean getBool(String request) {
@@ -180,7 +180,7 @@ public class InputManager {
         } else if(request.equals("buttonPress")) {
             return buttonPress;
         }
-        return false;
+        return Boolean.parseBoolean(request);
     }
 
     public static String getText(String request) {
@@ -215,7 +215,7 @@ public class InputManager {
         } else if(request.equals("progressBar")) {
             return String.valueOf(progressBar);
         }
-        return "";
+        return request;
     }
 
 }
