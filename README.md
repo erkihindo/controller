@@ -1,5 +1,5 @@
 # Controller
-Controlling a robot, using ROS, with an Android phone <br> More info in Wiki.  
+Controlling a robot, using ROS, with an Android phone <br> More info in [Wiki](https://github.com/erkihindo/controller/wiki).  
 
 ## Overview
 This app implements [ROS indigo](http://wiki.ros.org/android).
