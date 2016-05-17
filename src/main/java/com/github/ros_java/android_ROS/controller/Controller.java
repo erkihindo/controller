@@ -28,6 +28,7 @@ public class Controller extends RosActivity implements Thread.UncaughtExceptionH
 
     public static List<Publisherr> publisherrList;
     public static List<Listener> listenerList;
+    public static ImageListener image;
 
     double blueLeftX;
     double blueRightX;
@@ -60,7 +61,7 @@ public class Controller extends RosActivity implements Thread.UncaughtExceptionH
         hideTitleBar();
 
         setContentView(R.layout.main);
-        BluetoothController BC = new BluetoothController(this);
+        image = new ImageListener((this));
         publisherrList = new ArrayList<Publisherr>();
         appsettings = new GuiReader(this);
 
@@ -126,7 +127,7 @@ public class Controller extends RosActivity implements Thread.UncaughtExceptionH
 
         }
         if(appsettings.hasImg) {
-            nodeMainExecutor.execute(ViewManager.rosImageView, nodeConfiguration);
+            nodeMainExecutor.execute(image.rosImageView, nodeConfiguration);
         }
     }
 

@@ -94,7 +94,8 @@ public class Publisherr extends AbstractNodeMain {
         msg.setRadAngle(InputManager.getFloat(datas.get(1)));
         msg.setTurnRate(InputManager.getFloat(datas.get(2)));
         msg.setKick(InputManager.getBool(datas.get(3)));
-        msg.setText(InputManager.getText(datas.get(4)));
+        msg.setKickStrength(InputManager.getInt(datas.get(4)));
+        msg.setText(InputManager.getText(datas.get(5)));
         return msg;
     }
 

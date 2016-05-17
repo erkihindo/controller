@@ -9,6 +9,7 @@ public class InputManager {
     public static int leftJSy = 0;
     public static float leftJSdistance = 0;
     public static float leftJSangle = 0;
+    public static float leftYSxangle = 0;
     public static boolean leftJSup = false;
 
 
@@ -43,6 +44,11 @@ public class InputManager {
             leftJSdistance = leftJSdistance * progressBar;
         }
 
+
+        double turnD = -1*x/10.0*Math.PI;
+        leftYSxangle = (float) turnD;
+        if(x <=2 && x >= -2 && y >= 6) leftYSxangle = 0;
+
         double angle1 = Math.atan2(10, 0);
         double angle2 = Math.atan2(y, x );
 
@@ -63,7 +69,7 @@ public class InputManager {
         double turnD = -1*x/10.0*Math.PI;
 
         rightYSxangle = (float) turnD;
-        if(x <=1 && x >= -1 && y >= 6) rightYSxangle = 0;
+        if(x <=2 && x >= -2 && y >= 6) rightYSxangle = 0;
 
 
 

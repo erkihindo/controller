@@ -1,5 +1,6 @@
 package com.github.ros_java.android_ROS.controller;
 
+import android.app.Activity;
 import android.util.Log;
 
 import org.ros.android.MessageCallable;
@@ -16,17 +17,17 @@ import msgs.ImageData;
  * Created by erki on 5/1/16.
  */
 public class Listener{
-    RosActivity app;
+    static Activity app;
 
     public RosTextView<ImageData> rosTextView;
     private String displayed_message;
-    private double lastChanceToKick;
+    private double lastTimeKicked;
     private String topic;
     private String msgTyp;
 
 
 
-    public Listener(RosActivity c) {
+    public Listener(Activity c) {
         this.app = c;
         defineTextViews();
     }
@@ -34,10 +35,16 @@ public class Listener{
     public void defineTextViews() {
         rosTextView = (RosTextView<ImageData>) app.findViewById(R.id.text);
         rosTextView.setTopicName(topic);
+        if(msgTyp.equals("msgs/ImageData")) {
+            listenForImageData();
+        }
 
+    }
+
+    private void listenForImageData() {
         rosTextView.setMessageType(ImageData._TYPE);
         displayed_message = "";
-        lastChanceToKick = 5000;
+        lastTimeKicked = 5000;
 
 
         rosTextView.setMessageToStringCallable(new MessageCallable<String, ImageData>() {
@@ -56,7 +63,7 @@ public class Listener{
 
                 if (smallest_length < Double.parseDouble(app.getString(R.string.kick_range))) {
                     displayed_message = "KICK";
-                    lastChanceToKick = System.currentTimeMillis();
+                    lastTimeKicked = System.currentTimeMillis();
                 } else {
                     hideMessageDelay();
                 }
@@ -79,8 +86,8 @@ public class Listener{
 
     //Hides the displayed message after a sec
     public void hideMessageDelay() {
-        if(System.currentTimeMillis() - lastChanceToKick > 1000) {
-            Log.d("Time", "" + (System.currentTimeMillis() - lastChanceToKick));
+        if(System.currentTimeMillis() - lastTimeKicked > 1000) {
+            Log.d("Time", "" + (System.currentTimeMillis() - lastTimeKicked));
             displayed_message = "";
         }
     }

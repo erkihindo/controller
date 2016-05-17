@@ -143,7 +143,7 @@ public class GuiReader {
             if (list.get(listListenerIterator).startsWith("\t-topic:")) {
                 Log.i("topic: ", list.get(listListenerIterator));
                 imgTopic = list.get(listListenerIterator).substring(9);
-                ViewManager.defineImageViews(imgTopic);
+                ImageListener.defineImageViews(imgTopic);
                 list.remove(listListenerIterator);
                 listListenerIterator--;
             }

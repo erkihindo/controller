@@ -25,7 +25,7 @@ public class ViewManager {
 
     static Activity app;
     //displays the camera`s image
-    public static RosImageView2<CompressedImage> rosImageView;
+
 
 
 
@@ -132,13 +132,7 @@ public class ViewManager {
     }
 
 
-    public static void defineImageViews(String topic) {
-        rosImageView = (RosImageView2<sensor_msgs.CompressedImage>)app.findViewById(R.id.image);
-        rosImageView.setMessageType(sensor_msgs.CompressedImage._TYPE);
-        //rosImageView.setTopicName(app.getResources().getString(R.string.sub_image_topic));
-        rosImageView.setTopicName(topic);
-        rosImageView.setMessageToBitmapCallable(new BitmapFromCompressedImage());
-    }
+
 
     public static void defineSlider() {
         bar = (SeekBar)app.findViewById(R.id.seekBar);

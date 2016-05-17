@@ -6,303 +6,15 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="ac399082-e6b8-4a9b-b2bd-62b979c59d75" name="Default" comment="">
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/build/intermediates/classes/release/Joystick/DualJoystickView.class" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/build/intermediates/classes/release/Joystick/JoystickClickedListener.class" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/build/intermediates/classes/release/Joystick/JoystickMovedListener.class" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/build/intermediates/classes/release/Joystick/JoystickView$1.class" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/build/intermediates/classes/release/Joystick/JoystickView.class" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/build/intermediates/classes/release/com/github/ros_java/android_ROS/controller/BluetoothController.class" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/build/intermediates/classes/release/com/github/ros_java/android_ROS/controller/BuildConfig.class" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/build/intermediates/classes/release/com/github/ros_java/android_ROS/controller/Controller$1.class" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/build/intermediates/classes/release/com/github/ros_java/android_ROS/controller/Controller$2.class" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/build/intermediates/classes/release/com/github/ros_java/android_ROS/controller/Controller.class" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/build/intermediates/classes/release/com/github/ros_java/android_ROS/controller/GuiReader.class" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/build/intermediates/classes/release/com/github/ros_java/android_ROS/controller/InputManager.class" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/build/intermediates/classes/release/com/github/ros_java/android_ROS/controller/Listener$1.class" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/build/intermediates/classes/release/com/github/ros_java/android_ROS/controller/Listener.class" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/build/intermediates/classes/release/com/github/ros_java/android_ROS/controller/Publisherr$1.class" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/build/intermediates/classes/release/com/github/ros_java/android_ROS/controller/Publisherr.class" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/build/intermediates/classes/release/com/github/ros_java/android_ROS/controller/R$attr.class" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/build/intermediates/classes/release/com/github/ros_java/android_ROS/controller/R$drawable.class" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/build/intermediates/classes/release/com/github/ros_java/android_ROS/controller/R$id.class" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/build/intermediates/classes/release/com/github/ros_java/android_ROS/controller/R$layout.class" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/build/intermediates/classes/release/com/github/ros_java/android_ROS/controller/R$mipmap.class" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/build/intermediates/classes/release/com/github/ros_java/android_ROS/controller/R$raw.class" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/build/intermediates/classes/release/com/github/ros_java/android_ROS/controller/R$style.class" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/build/intermediates/classes/release/com/github/ros_java/android_ROS/controller/R.class" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/build/intermediates/classes/release/com/github/ros_java/android_ROS/controller/RosImageView2$1.class" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/build/intermediates/classes/release/com/github/ros_java/android_ROS/controller/RosImageView2.class" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/build/intermediates/classes/release/com/github/ros_java/android_ROS/controller/ViewManager$1.class" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/build/intermediates/classes/release/com/github/ros_java/android_ROS/controller/ViewManager$2.class" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/build/intermediates/classes/release/com/github/ros_java/android_ROS/controller/ViewManager$3.class" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/build/intermediates/classes/release/com/github/ros_java/android_ROS/controller/ViewManager$4.class" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/build/intermediates/classes/release/com/github/ros_java/android_ROS/controller/ViewManager$5.class" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/build/intermediates/classes/release/com/github/ros_java/android_ROS/controller/ViewManager.class" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/build/intermediates/classes/release/com/github/rosjava/android_extras/gingerbread/R$drawable.class" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/build/intermediates/classes/release/com/github/rosjava/android_extras/gingerbread/R$layout.class" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/build/intermediates/classes/release/com/github/rosjava/android_extras/gingerbread/R$string.class" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/build/intermediates/classes/release/com/github/rosjava/android_extras/gingerbread/R.class" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/build/intermediates/classes/release/org/ros/android/android_10/R$drawable.class" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/build/intermediates/classes/release/org/ros/android/android_10/R$id.class" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/build/intermediates/classes/release/org/ros/android/android_10/R$layout.class" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/build/intermediates/classes/release/org/ros/android/android_10/R$mipmap.class" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/build/intermediates/classes/release/org/ros/android/android_10/R$string.class" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/build/intermediates/classes/release/org/ros/android/android_10/R$style.class" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/build/intermediates/classes/release/org/ros/android/android_10/R.class" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/build/intermediates/classes/release/org/ros/android/android_15/R$drawable.class" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/build/intermediates/classes/release/org/ros/android/android_15/R$id.class" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/build/intermediates/classes/release/org/ros/android/android_15/R$layout.class" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/build/intermediates/classes/release/org/ros/android/android_15/R$mipmap.class" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/build/intermediates/classes/release/org/ros/android/android_15/R$string.class" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/build/intermediates/classes/release/org/ros/android/android_15/R$style.class" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/build/intermediates/classes/release/org/ros/android/android_15/R.class" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/build/intermediates/dex/release/classes.dex" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/build/intermediates/incremental/aidl/release/dependency.store" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/build/intermediates/pre-dexed/release/actionlib_msgs-1.11.7-f68083f5da1e34a105a58cb0c695895f9724cdd5.jar" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/build/intermediates/pre-dexed/release/apache_xmlrpc_client-0.2.1-d01caf9597b6159382c77f997866bf3f9f22ed99.jar" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/build/intermediates/pre-dexed/release/apache_xmlrpc_common-0.2.1-f3dc7f8ed4482ce1700cab8c94f51f9e944fb4e0.jar" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/build/intermediates/pre-dexed/release/apache_xmlrpc_server-0.2.1-71230f4cc3a271ec4903799095bbc326b07c7d70.jar" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/build/intermediates/pre-dexed/release/classes-4aa2a08703b63c9192cf7f81df5838c3b41674db.jar" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/build/intermediates/pre-dexed/release/classes-66f950913180d369ece091e556a2ff1c8eb37369.jar" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/build/intermediates/pre-dexed/release/classes-6f434be3e9e97865f258441105829adb50a0e310.jar" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/build/intermediates/pre-dexed/release/classes-b650b0213f275fa52434ef25d25d007b8f430a1c.jar" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/build/intermediates/pre-dexed/release/com.springsource.org.apache.commons.codec-1.3.0-32474c049341aaf036383ce7b0dcf0cba0d4e344.jar" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/build/intermediates/pre-dexed/release/com.springsource.org.apache.commons.httpclient-3.1.0-093a60a2445c74d63d125b3a30c1013ff7dce995.jar" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/build/intermediates/pre-dexed/release/com.springsource.org.apache.commons.io-1.4.0-0b905629d81688ae793b96b74ba9cb1841cd26cb.jar" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/build/intermediates/pre-dexed/release/com.springsource.org.apache.commons.lang-2.4.0-d70746954ead8ea22705b5529b13089e1e248e47.jar" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/build/intermediates/pre-dexed/release/com.springsource.org.apache.commons.logging-1.1.1-91387a6de6b1dd864db3480ad3ee76649dd2fb22.jar" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/build/intermediates/pre-dexed/release/com.springsource.org.apache.commons.net-2.0.0-d7c553728863617a29d21b4afe1d658a422a9eb6.jar" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/build/intermediates/pre-dexed/release/commons-pool-1.6-7ba11a7efc5f29ea184b0c31bfae6843ddb74c8e.jar" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/build/intermediates/pre-dexed/release/diagnostic_msgs-1.11.7-5817f26639205b92944d998b8cdf6114796851b4.jar" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/build/intermediates/pre-dexed/release/dnsjava-2.1.1-88a6eb06610a076a6fe0f73b391ed4651123f09f.jar" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/build/intermediates/pre-dexed/release/geometry_msgs-1.11.7-81582f496ce032f8d47e9adf203d3f1e9f710ded.jar" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/build/intermediates/pre-dexed/release/gradle_plugins-0.2.1-d6d3b747b5f94c1c3788fbd5681ab5d6ed6dce63.jar" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/build/intermediates/pre-dexed/release/guava-12.0-e0e7d3ab60a793caac716dd11339a36aeecd189d.jar" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/build/intermediates/pre-dexed/release/internal_impl-23.2.0-e7628a9ff9716d68d5528f081fc508f9d0863ff9.jar" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/build/intermediates/pre-dexed/release/joystickview-55d3e2f7a3de485dfbcfb7ab7b51135126431f5a.jar" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/build/intermediates/pre-dexed/release/jsr305-1.3.9-f150c0af8198a40efb153f99eab46b92ef6d92b5.jar" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/build/intermediates/pre-dexed/release/message_generation-0.2.1-939afee27effbc978473f4595f3904d5928bb674.jar" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/build/intermediates/pre-dexed/release/msgs-ebb787cb66da83f8b466da20086b37c2b63b7c2e.jar" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/build/intermediates/pre-dexed/release/nav_msgs-1.11.7-dd01f3bcb08a5cf3ac8dac91901cbe63a31d739b.jar" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/build/intermediates/pre-dexed/release/netty-3.5.2.Final-a56f4f2a1f1d2f4bb4787138fb1823ff3f329c56.jar" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/build/intermediates/pre-dexed/release/rosgraph_msgs-1.11.2-9dfbd45b4fc2038b25c91bbe0e6574e07409853b.jar" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/build/intermediates/pre-dexed/release/rosjava-0.2.1-5860701a02e32e3bac3084d3e31d489d81f71d8c.jar" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/build/intermediates/pre-dexed/release/rosjava_geometry-0.2.1-33646d766c2816bd5488001005aee88b2438cceb.jar" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/build/intermediates/pre-dexed/release/rosjava_test_msgs-0.2.1-77ca37e6437e2a0987b744d0befc2b950758a357.jar" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/build/intermediates/pre-dexed/release/sensor_msgs-1.11.7-cea20011e2376e817d449918a05c8d245603a55d.jar" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/build/intermediates/pre-dexed/release/std_msgs-0.5.9-8b6a7c23fde1e6dbe91b49e8604528d4050d0e06.jar" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/build/intermediates/pre-dexed/release/support-annotations-23.2.0-8fac69d9fb6e488236a9f907c1a0ff9edd992a79.jar" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/build/intermediates/pre-dexed/release/tf2_msgs-0.5.9-74d8f117259a265b1501cb3a0bb2d42989bfb24c.jar" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/build/intermediates/pre-dexed/release/visualization_msgs-1.11.7-305904dc6caa7759df21cce0998e0e2067f6616e.jar" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/build/intermediates/pre-dexed/release/ws-commons-util-1.0.1-8509bca48d61ebab67c0b7e3c738d460527d1502.jar" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/build/intermediates/res/release/drawable-hdpi-v4/background.png" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/build/intermediates/res/release/drawable-hdpi-v4/battery_charging.png" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/build/intermediates/res/release/drawable-hdpi-v4/battery_silhouette.png" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/build/intermediates/res/release/drawable-hdpi-v4/black_background.png" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/build/intermediates/res/release/drawable-hdpi-v4/center_widget.png" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/build/intermediates/res/release/drawable-hdpi-v4/directional_arrow.png" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/build/intermediates/res/release/drawable-hdpi-v4/grey_ring_notched.png" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/build/intermediates/res/release/drawable-hdpi-v4/horizon_original.png" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/build/intermediates/res/release/drawable-hdpi-v4/intensity.png" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/build/intermediates/res/release/drawable-hdpi-v4/large_d_widget_3.png" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/build/intermediates/res/release/drawable-hdpi-v4/large_pan_marker_3.png" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/build/intermediates/res/release/drawable-hdpi-v4/large_tilt_marker_3.png" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/build/intermediates/res/release/drawable-hdpi-v4/mid_angle_slice.png" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/build/intermediates/res/release/drawable-hdpi-v4/pan_tilt_controller.png" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/build/intermediates/res/release/drawable-hdpi-v4/pan_tilt_follower.png" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/build/intermediates/res/release/drawable-hdpi-v4/previous_velocity.png" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/build/intermediates/res/release/drawable-hdpi-v4/pt_bg.png" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/build/intermediates/res/release/drawable-hdpi-v4/pt_home_marker.png" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/build/intermediates/res/release/drawable-hdpi-v4/rotate_left_icon.png" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/build/intermediates/res/release/drawable-hdpi-v4/rotate_right_icon.png" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/build/intermediates/res/release/drawable-hdpi-v4/small_d_widget_3.png" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/build/intermediates/res/release/drawable-hdpi-v4/small_pan_marker_3.png" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/build/intermediates/res/release/drawable-hdpi-v4/small_tilt_marker_3.png" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/build/intermediates/res/release/drawable-hdpi-v4/top_angle_slice.png" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/build/intermediates/res/release/drawable-hdpi-v4/zoom_bar_lit.png" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/build/intermediates/res/release/drawable-hdpi-v4/zoom_bar_notlit.png" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/build/intermediates/res/release/drawable-hdpi-v4/zoom_bg.png" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/build/intermediates/res/release/drawable-hdpi-v4/zoom_in_normal.png" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/build/intermediates/res/release/drawable-hdpi-v4/zoom_in_pressed.png" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/build/intermediates/res/release/drawable-hdpi-v4/zoom_out_normal.png" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/build/intermediates/res/release/drawable-hdpi-v4/zoom_out_pressed.png" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/build/intermediates/res/release/drawable/error.png" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/build/intermediates/res/release/drawable/ok.png" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/build/intermediates/res/release/drawable/stale.png" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/build/intermediates/res/release/drawable/warn.png" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/build/intermediates/res/release/mipmap-hdpi-v4/icon.png" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/build/intermediates/res/release/mipmap-ldpi-v4/icon.png" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/build/intermediates/res/release/mipmap-mdpi-v4/icon.png" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/build/intermediates/res/resources-release.ap_" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/build/outputs/apk/controller-release-unsigned.apk" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/gradle/wrapper/gradle-wrapper.jar" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/.idea/.name" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/.idea/compiler.xml" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/.idea/copyright/profiles_settings.xml" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/.idea/encodings.xml" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/.idea/gradle.xml" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/.idea/libraries/actionlib_msgs_1_11_7.xml" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/.idea/libraries/android_10_0_2_0.xml" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/.idea/libraries/android_15_0_2_0.xml" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/.idea/libraries/apache_xmlrpc_client_0_2_1.xml" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/.idea/libraries/apache_xmlrpc_common_0_2_1.xml" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/.idea/libraries/apache_xmlrpc_server_0_2_1.xml" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/.idea/libraries/com_springsource_org_apache_commons_codec_1_3_0.xml" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/.idea/libraries/com_springsource_org_apache_commons_httpclient_3_1_0.xml" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/.idea/libraries/com_springsource_org_apache_commons_io_1_4_0.xml" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/.idea/libraries/com_springsource_org_apache_commons_lang_2_4_0.xml" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/.idea/libraries/com_springsource_org_apache_commons_logging_1_1_1.xml" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/.idea/libraries/com_springsource_org_apache_commons_net_2_0_0.xml" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/.idea/libraries/commons_pool_1_6.xml" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/.idea/libraries/diagnostic_msgs_1_11_7.xml" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/.idea/libraries/dnsjava_2_1_1.xml" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/.idea/libraries/geometry_msgs_1_11_7.xml" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/.idea/libraries/gingerbread_0_2_0.xml" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/.idea/libraries/gradle_plugins_0_2_1.xml" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/.idea/libraries/guava_12_0.xml" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/.idea/libraries/joystickview.xml" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/.idea/libraries/jsr305_1_3_9.xml" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/.idea/libraries/message_generation_0_2_1.xml" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/.idea/libraries/msgs.xml" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/.idea/libraries/nav_msgs_1_11_7.xml" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/.idea/libraries/netty_3_5_2_Final.xml" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/.idea/libraries/rosgraph_msgs_1_11_1.xml" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/.idea/libraries/rosjava_0_2_1.xml" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/.idea/libraries/rosjava_geometry_0_2_1.xml" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/.idea/libraries/rosjava_test_msgs_0_2_1.xml" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/.idea/libraries/sensor_msgs_1_11_7.xml" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/.idea/libraries/std_msgs_0_5_9.xml" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/.idea/libraries/support_annotations_23_2_0.xml" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/.idea/libraries/support_v4_23_2_0.xml" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/.idea/libraries/tf2_msgs_0_5_9.xml" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/.idea/libraries/visualization_msgs_1_11_7.xml" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/.idea/libraries/ws_commons_util_1_0_1.xml" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/.idea/misc.xml" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/.idea/modules.xml" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/.idea/runConfigurations.xml" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/.idea/vcs.xml" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/.idea/workspace.xml" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/build/generated/source/buildConfig/release/com/github/ros_java/android_ROS/controller/BuildConfig.java" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/build/generated/source/r/release/com/github/ros_java/android_ROS/controller/R.java" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/build/generated/source/r/release/com/github/rosjava/android_extras/gingerbread/R.java" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/build/generated/source/r/release/org/ros/android/android_10/R.java" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/build/generated/source/r/release/org/ros/android/android_15/R.java" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/build/intermediates/incremental/mergeAssets/release/merger.xml" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/build/intermediates/incremental/mergeResources/release/merger.xml" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/build/intermediates/manifests/full/release/AndroidManifest.xml" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/build/intermediates/res/release/layout/main.xml" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/build/intermediates/res/release/layout/master_chooser.xml" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/build/intermediates/res/release/layout/pan_tilt.xml" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/build/intermediates/res/release/layout/virtual_joystick.xml" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/build/intermediates/res/release/raw/gui.txt" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/build/intermediates/res/release/values/values.xml" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/build/intermediates/symbols/release/R.txt" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/build/intermediates/tmp/dex/release/inputList.txt" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/build/ivy.xml" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/build/outputs/apk/manifest-merger-release-report.txt" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/build/outputs/lint-results-release-fatal.html" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/build/outputs/lint-results-release-fatal.xml" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/build/outputs/lint-results-release-fatal_files/hololike.css" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/build/poms/pom-default.xml" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/gradle/wrapper/gradle-wrapper.properties" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/gradlew" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/gradlew.bat" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/local.properties" />
-      <change type="MOVED" beforePath="$PROJECT_DIR$/build/intermediates/classes/debug/com/github/ros_java/android_ROS/controller/R$string.class" afterPath="$PROJECT_DIR$/build/intermediates/classes/release/com/github/ros_java/android_ROS/controller/R$string.class" />
-      <change type="MOVED" beforePath="$PROJECT_DIR$/build/intermediates/pre-dexed/debug/classes-0eca8ad9e09e550042a55668da558feca7aac64e.jar" afterPath="$PROJECT_DIR$/build/intermediates/pre-dexed/debug/classes-b650b0213f275fa52434ef25d25d007b8f430a1c.jar" />
-      <change type="MOVED" beforePath="$PROJECT_DIR$/build/intermediates/pre-dexed/debug/classes-1d833c9d6231bb3eff5b83f79a8ab44734c9f5f0.jar" afterPath="$PROJECT_DIR$/build/intermediates/pre-dexed/debug/classes-4aa2a08703b63c9192cf7f81df5838c3b41674db.jar" />
-      <change type="MOVED" beforePath="$PROJECT_DIR$/build/intermediates/pre-dexed/debug/classes-4a21fa6c269f748a134125632433ec874cca2209.jar" afterPath="$PROJECT_DIR$/build/intermediates/pre-dexed/debug/classes-66f950913180d369ece091e556a2ff1c8eb37369.jar" />
-      <change type="MOVED" beforePath="$PROJECT_DIR$/build/intermediates/pre-dexed/debug/classes-c90f0851e420ec797eba038f44d7437b7b1b5156.jar" afterPath="$PROJECT_DIR$/build/intermediates/pre-dexed/debug/classes-6f434be3e9e97865f258441105829adb50a0e310.jar" />
-      <change type="MOVED" beforePath="$PROJECT_DIR$/build/intermediates/pre-dexed/debug/internal_impl-23.2.0-1da07c0204dc089616b1b25b38425ef95cdeed53.jar" afterPath="$PROJECT_DIR$/build/intermediates/pre-dexed/debug/internal_impl-23.2.0-e7628a9ff9716d68d5528f081fc508f9d0863ff9.jar" />
-      <change type="MOVED" beforePath="$PROJECT_DIR$/build/intermediates/pre-dexed/debug/joystickview-807f23d40a7f7bc1085e54bd39f2db27991a2901.jar" afterPath="$PROJECT_DIR$/build/intermediates/pre-dexed/debug/joystickview-55d3e2f7a3de485dfbcfb7ab7b51135126431f5a.jar" />
-      <change type="MOVED" beforePath="$PROJECT_DIR$/build/intermediates/pre-dexed/debug/msgs-cf19e626402561e54381c33820607347132116e8.jar" afterPath="$PROJECT_DIR$/build/intermediates/pre-dexed/debug/msgs-ebb787cb66da83f8b466da20086b37c2b63b7c2e.jar" />
-      <change type="MOVED" beforePath="$PROJECT_DIR$/build/intermediates/pre-dexed/debug/support-annotations-23.2.0-35b29ca81619d879d31fca1c21818a2bda668c15.jar" afterPath="$PROJECT_DIR$/build/intermediates/pre-dexed/debug/support-annotations-23.2.0-8fac69d9fb6e488236a9f907c1a0ff9edd992a79.jar" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/build/intermediates/classes/debug/Joystick/DualJoystickView.class" afterPath="$PROJECT_DIR$/build/intermediates/classes/debug/Joystick/DualJoystickView.class" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/build/intermediates/classes/debug/Joystick/JoystickView$1.class" afterPath="$PROJECT_DIR$/build/intermediates/classes/debug/Joystick/JoystickView$1.class" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/build/intermediates/classes/debug/Joystick/JoystickView.class" afterPath="$PROJECT_DIR$/build/intermediates/classes/debug/Joystick/JoystickView.class" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/build/intermediates/classes/debug/com/github/ros_java/android_ROS/controller/Controller$1.class" afterPath="$PROJECT_DIR$/build/intermediates/classes/debug/com/github/ros_java/android_ROS/controller/Controller$1.class" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/build/intermediates/classes/debug/com/github/ros_java/android_ROS/controller/Controller$2.class" afterPath="$PROJECT_DIR$/build/intermediates/classes/debug/com/github/ros_java/android_ROS/controller/Controller$2.class" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/build/intermediates/classes/debug/com/github/ros_java/android_ROS/controller/Controller.class" afterPath="$PROJECT_DIR$/build/intermediates/classes/debug/com/github/ros_java/android_ROS/controller/Controller.class" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/build/intermediates/classes/debug/com/github/ros_java/android_ROS/controller/GuiReader.class" afterPath="$PROJECT_DIR$/build/intermediates/classes/debug/com/github/ros_java/android_ROS/controller/GuiReader.class" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/build/intermediates/classes/debug/com/github/ros_java/android_ROS/controller/InputManager.class" afterPath="$PROJECT_DIR$/build/intermediates/classes/debug/com/github/ros_java/android_ROS/controller/InputManager.class" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/build/intermediates/classes/debug/com/github/ros_java/android_ROS/controller/Listener$1.class" afterPath="$PROJECT_DIR$/build/intermediates/classes/debug/com/github/ros_java/android_ROS/controller/Listener$1.class" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/build/intermediates/classes/debug/com/github/ros_java/android_ROS/controller/Listener.class" afterPath="$PROJECT_DIR$/build/intermediates/classes/debug/com/github/ros_java/android_ROS/controller/Listener.class" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/build/intermediates/classes/debug/com/github/ros_java/android_ROS/controller/Publisherr$1.class" afterPath="$PROJECT_DIR$/build/intermediates/classes/debug/com/github/ros_java/android_ROS/controller/Publisherr$1.class" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/build/intermediates/classes/debug/com/github/ros_java/android_ROS/controller/Publisherr.class" afterPath="$PROJECT_DIR$/build/intermediates/classes/debug/com/github/ros_java/android_ROS/controller/Publisherr.class" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/build/intermediates/classes/debug/com/github/ros_java/android_ROS/controller/R$string.class" afterPath="$PROJECT_DIR$/build/intermediates/classes/debug/com/github/ros_java/android_ROS/controller/R$string.class" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/build/intermediates/classes/debug/com/github/ros_java/android_ROS/controller/R$style.class" afterPath="$PROJECT_DIR$/build/intermediates/classes/debug/com/github/ros_java/android_ROS/controller/R$style.class" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/build/intermediates/classes/debug/com/github/ros_java/android_ROS/controller/R.class" afterPath="$PROJECT_DIR$/build/intermediates/classes/debug/com/github/ros_java/android_ROS/controller/R.class" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/build/intermediates/classes/debug/com/github/ros_java/android_ROS/controller/RosImageView2$1.class" afterPath="$PROJECT_DIR$/build/intermediates/classes/debug/com/github/ros_java/android_ROS/controller/RosImageView2$1.class" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/build/intermediates/classes/debug/com/github/ros_java/android_ROS/controller/RosImageView2.class" afterPath="$PROJECT_DIR$/build/intermediates/classes/debug/com/github/ros_java/android_ROS/controller/RosImageView2.class" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/build/intermediates/classes/debug/com/github/ros_java/android_ROS/controller/ViewManager$1.class" afterPath="$PROJECT_DIR$/build/intermediates/classes/debug/com/github/ros_java/android_ROS/controller/ViewManager$1.class" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/build/intermediates/classes/debug/com/github/ros_java/android_ROS/controller/ViewManager$2.class" afterPath="$PROJECT_DIR$/build/intermediates/classes/debug/com/github/ros_java/android_ROS/controller/ViewManager$2.class" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/build/intermediates/classes/debug/com/github/ros_java/android_ROS/controller/ViewManager$3.class" afterPath="$PROJECT_DIR$/build/intermediates/classes/debug/com/github/ros_java/android_ROS/controller/ViewManager$3.class" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/build/intermediates/classes/debug/com/github/ros_java/android_ROS/controller/ViewManager$4.class" afterPath="$PROJECT_DIR$/build/intermediates/classes/debug/com/github/ros_java/android_ROS/controller/ViewManager$4.class" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/build/intermediates/classes/debug/com/github/ros_java/android_ROS/controller/ViewManager$5.class" afterPath="$PROJECT_DIR$/build/intermediates/classes/debug/com/github/ros_java/android_ROS/controller/ViewManager$5.class" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/build/intermediates/classes/debug/com/github/ros_java/android_ROS/controller/ViewManager.class" afterPath="$PROJECT_DIR$/build/intermediates/classes/debug/com/github/ros_java/android_ROS/controller/ViewManager.class" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/build/intermediates/classes/debug/com/github/rosjava/android_extras/gingerbread/R.class" afterPath="$PROJECT_DIR$/build/intermediates/classes/debug/com/github/rosjava/android_extras/gingerbread/R.class" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/build/intermediates/classes/debug/org/ros/android/android_10/R$string.class" afterPath="$PROJECT_DIR$/build/intermediates/classes/debug/org/ros/android/android_10/R$string.class" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/build/intermediates/classes/debug/org/ros/android/android_10/R.class" afterPath="$PROJECT_DIR$/build/intermediates/classes/debug/org/ros/android/android_10/R.class" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/build/intermediates/classes/debug/org/ros/android/android_15/R$string.class" afterPath="$PROJECT_DIR$/build/intermediates/classes/debug/org/ros/android/android_15/R$string.class" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/build/intermediates/classes/debug/org/ros/android/android_15/R.class" afterPath="$PROJECT_DIR$/build/intermediates/classes/debug/org/ros/android/android_15/R.class" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/build/intermediates/dex/debug/classes.dex" afterPath="$PROJECT_DIR$/build/intermediates/dex/debug/classes.dex" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/build/intermediates/pre-dexed/debug/actionlib_msgs-1.11.7-f68083f5da1e34a105a58cb0c695895f9724cdd5.jar" afterPath="$PROJECT_DIR$/build/intermediates/pre-dexed/debug/actionlib_msgs-1.11.7-f68083f5da1e34a105a58cb0c695895f9724cdd5.jar" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/build/intermediates/pre-dexed/debug/apache_xmlrpc_client-0.2.1-69946e12b0ed021b9286ee85a1d7cc4a963b228d.jar" afterPath="$PROJECT_DIR$/build/intermediates/pre-dexed/debug/apache_xmlrpc_client-0.2.1-69946e12b0ed021b9286ee85a1d7cc4a963b228d.jar" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/build/intermediates/pre-dexed/debug/apache_xmlrpc_common-0.2.1-e9647e150d682db339e16d758c598f65f409012a.jar" afterPath="$PROJECT_DIR$/build/intermediates/pre-dexed/debug/apache_xmlrpc_common-0.2.1-e9647e150d682db339e16d758c598f65f409012a.jar" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/build/intermediates/pre-dexed/debug/apache_xmlrpc_server-0.2.1-a1e6bdca36c0347d7de3d5fe071081a44abc7b3c.jar" afterPath="$PROJECT_DIR$/build/intermediates/pre-dexed/debug/apache_xmlrpc_server-0.2.1-a1e6bdca36c0347d7de3d5fe071081a44abc7b3c.jar" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/build/intermediates/pre-dexed/debug/com.springsource.org.apache.commons.codec-1.3.0-32474c049341aaf036383ce7b0dcf0cba0d4e344.jar" afterPath="$PROJECT_DIR$/build/intermediates/pre-dexed/debug/com.springsource.org.apache.commons.codec-1.3.0-32474c049341aaf036383ce7b0dcf0cba0d4e344.jar" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/build/intermediates/pre-dexed/debug/com.springsource.org.apache.commons.httpclient-3.1.0-093a60a2445c74d63d125b3a30c1013ff7dce995.jar" afterPath="$PROJECT_DIR$/build/intermediates/pre-dexed/debug/com.springsource.org.apache.commons.httpclient-3.1.0-093a60a2445c74d63d125b3a30c1013ff7dce995.jar" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/build/intermediates/pre-dexed/debug/com.springsource.org.apache.commons.io-1.4.0-0b905629d81688ae793b96b74ba9cb1841cd26cb.jar" afterPath="$PROJECT_DIR$/build/intermediates/pre-dexed/debug/com.springsource.org.apache.commons.io-1.4.0-0b905629d81688ae793b96b74ba9cb1841cd26cb.jar" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/build/intermediates/pre-dexed/debug/com.springsource.org.apache.commons.lang-2.4.0-d70746954ead8ea22705b5529b13089e1e248e47.jar" afterPath="$PROJECT_DIR$/build/intermediates/pre-dexed/debug/com.springsource.org.apache.commons.lang-2.4.0-d70746954ead8ea22705b5529b13089e1e248e47.jar" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/build/intermediates/pre-dexed/debug/com.springsource.org.apache.commons.logging-1.1.1-91387a6de6b1dd864db3480ad3ee76649dd2fb22.jar" afterPath="$PROJECT_DIR$/build/intermediates/pre-dexed/debug/com.springsource.org.apache.commons.logging-1.1.1-91387a6de6b1dd864db3480ad3ee76649dd2fb22.jar" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/build/intermediates/pre-dexed/debug/com.springsource.org.apache.commons.net-2.0.0-d7c553728863617a29d21b4afe1d658a422a9eb6.jar" afterPath="$PROJECT_DIR$/build/intermediates/pre-dexed/debug/com.springsource.org.apache.commons.net-2.0.0-d7c553728863617a29d21b4afe1d658a422a9eb6.jar" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/build/intermediates/pre-dexed/debug/commons-pool-1.6-7ba11a7efc5f29ea184b0c31bfae6843ddb74c8e.jar" afterPath="$PROJECT_DIR$/build/intermediates/pre-dexed/debug/commons-pool-1.6-7ba11a7efc5f29ea184b0c31bfae6843ddb74c8e.jar" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/build/intermediates/pre-dexed/debug/diagnostic_msgs-1.11.7-5817f26639205b92944d998b8cdf6114796851b4.jar" afterPath="$PROJECT_DIR$/build/intermediates/pre-dexed/debug/diagnostic_msgs-1.11.7-5817f26639205b92944d998b8cdf6114796851b4.jar" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/build/intermediates/pre-dexed/debug/dnsjava-2.1.1-88a6eb06610a076a6fe0f73b391ed4651123f09f.jar" afterPath="$PROJECT_DIR$/build/intermediates/pre-dexed/debug/dnsjava-2.1.1-88a6eb06610a076a6fe0f73b391ed4651123f09f.jar" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/build/intermediates/pre-dexed/debug/geometry_msgs-1.11.7-81582f496ce032f8d47e9adf203d3f1e9f710ded.jar" afterPath="$PROJECT_DIR$/build/intermediates/pre-dexed/debug/geometry_msgs-1.11.7-81582f496ce032f8d47e9adf203d3f1e9f710ded.jar" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/build/intermediates/pre-dexed/debug/gradle_plugins-0.2.1-9aa2fc02ead56ce7ad512ac7c86b154e88a4ea14.jar" afterPath="$PROJECT_DIR$/build/intermediates/pre-dexed/debug/gradle_plugins-0.2.1-9aa2fc02ead56ce7ad512ac7c86b154e88a4ea14.jar" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/build/intermediates/pre-dexed/debug/guava-12.0-e0e7d3ab60a793caac716dd11339a36aeecd189d.jar" afterPath="$PROJECT_DIR$/build/intermediates/pre-dexed/debug/guava-12.0-e0e7d3ab60a793caac716dd11339a36aeecd189d.jar" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/build/intermediates/pre-dexed/debug/jsr305-1.3.9-f150c0af8198a40efb153f99eab46b92ef6d92b5.jar" afterPath="$PROJECT_DIR$/build/intermediates/pre-dexed/debug/jsr305-1.3.9-f150c0af8198a40efb153f99eab46b92ef6d92b5.jar" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/build/intermediates/pre-dexed/debug/message_generation-0.2.1-88fcff390ba1b3b976f2a126757fc5ec23aee490.jar" afterPath="$PROJECT_DIR$/build/intermediates/pre-dexed/debug/message_generation-0.2.1-88fcff390ba1b3b976f2a126757fc5ec23aee490.jar" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/build/intermediates/pre-dexed/debug/nav_msgs-1.11.7-dd01f3bcb08a5cf3ac8dac91901cbe63a31d739b.jar" afterPath="$PROJECT_DIR$/build/intermediates/pre-dexed/debug/nav_msgs-1.11.7-dd01f3bcb08a5cf3ac8dac91901cbe63a31d739b.jar" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/build/intermediates/pre-dexed/debug/netty-3.5.2.Final-a56f4f2a1f1d2f4bb4787138fb1823ff3f329c56.jar" afterPath="$PROJECT_DIR$/build/intermediates/pre-dexed/debug/netty-3.5.2.Final-a56f4f2a1f1d2f4bb4787138fb1823ff3f329c56.jar" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/build/intermediates/pre-dexed/debug/rosgraph_msgs-1.11.1-7746a4ff6e990d62aaa2a4d6651d745ece31ae97.jar" afterPath="$PROJECT_DIR$/build/intermediates/pre-dexed/debug/rosgraph_msgs-1.11.1-7746a4ff6e990d62aaa2a4d6651d745ece31ae97.jar" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/build/intermediates/pre-dexed/debug/rosjava-0.2.1-b15a839309a7fc5a57a64296f3f6979838d50645.jar" afterPath="$PROJECT_DIR$/build/intermediates/pre-dexed/debug/rosjava-0.2.1-b15a839309a7fc5a57a64296f3f6979838d50645.jar" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/build/intermediates/pre-dexed/debug/rosjava_geometry-0.2.1-d54541815ee8b583c63ffad73cc45166cbeb1a90.jar" afterPath="$PROJECT_DIR$/build/intermediates/pre-dexed/debug/rosjava_geometry-0.2.1-d54541815ee8b583c63ffad73cc45166cbeb1a90.jar" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/build/intermediates/pre-dexed/debug/rosjava_test_msgs-0.2.1-68809d63b57225a2718e1708456e6fae31746350.jar" afterPath="$PROJECT_DIR$/build/intermediates/pre-dexed/debug/rosjava_test_msgs-0.2.1-68809d63b57225a2718e1708456e6fae31746350.jar" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/build/intermediates/pre-dexed/debug/sensor_msgs-1.11.7-cea20011e2376e817d449918a05c8d245603a55d.jar" afterPath="$PROJECT_DIR$/build/intermediates/pre-dexed/debug/sensor_msgs-1.11.7-cea20011e2376e817d449918a05c8d245603a55d.jar" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/build/intermediates/pre-dexed/debug/std_msgs-0.5.9-984ab130d7940a4e0af810fb0a70f95bb25718b8.jar" afterPath="$PROJECT_DIR$/build/intermediates/pre-dexed/debug/std_msgs-0.5.9-984ab130d7940a4e0af810fb0a70f95bb25718b8.jar" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/build/intermediates/pre-dexed/debug/tf2_msgs-0.5.9-74d8f117259a265b1501cb3a0bb2d42989bfb24c.jar" afterPath="$PROJECT_DIR$/build/intermediates/pre-dexed/debug/tf2_msgs-0.5.9-74d8f117259a265b1501cb3a0bb2d42989bfb24c.jar" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/build/intermediates/pre-dexed/debug/visualization_msgs-1.11.7-305904dc6caa7759df21cce0998e0e2067f6616e.jar" afterPath="$PROJECT_DIR$/build/intermediates/pre-dexed/debug/visualization_msgs-1.11.7-305904dc6caa7759df21cce0998e0e2067f6616e.jar" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/build/intermediates/pre-dexed/debug/ws-commons-util-1.0.1-8509bca48d61ebab67c0b7e3c738d460527d1502.jar" afterPath="$PROJECT_DIR$/build/intermediates/pre-dexed/debug/ws-commons-util-1.0.1-8509bca48d61ebab67c0b7e3c738d460527d1502.jar" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/build/intermediates/res/resources-debug-test.ap_" afterPath="$PROJECT_DIR$/build/intermediates/res/resources-debug-test.ap_" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/build/intermediates/res/resources-debug.ap_" afterPath="$PROJECT_DIR$/build/intermediates/res/resources-debug.ap_" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/build/outputs/apk/controller-debug-unaligned.apk" afterPath="$PROJECT_DIR$/build/outputs/apk/controller-debug-unaligned.apk" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/build/outputs/apk/controller-debug.apk" afterPath="$PROJECT_DIR$/build/outputs/apk/controller-debug.apk" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/build/generated/source/r/debug/com/github/ros_java/android_ROS/controller/R.java" afterPath="$PROJECT_DIR$/build/generated/source/r/debug/com/github/ros_java/android_ROS/controller/R.java" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/build/generated/source/r/debug/org/ros/android/android_10/R.java" afterPath="$PROJECT_DIR$/build/generated/source/r/debug/org/ros/android/android_10/R.java" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/build/generated/source/r/debug/org/ros/android/android_15/R.java" afterPath="$PROJECT_DIR$/build/generated/source/r/debug/org/ros/android/android_15/R.java" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/build/intermediates/incremental/mergeAssets/debug/merger.xml" afterPath="$PROJECT_DIR$/build/intermediates/incremental/mergeAssets/debug/merger.xml" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/build/intermediates/incremental/mergeAssets/test/debug/merger.xml" afterPath="$PROJECT_DIR$/build/intermediates/incremental/mergeAssets/test/debug/merger.xml" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/build/intermediates/incremental/mergeResources/debug/merger.xml" afterPath="$PROJECT_DIR$/build/intermediates/incremental/mergeResources/debug/merger.xml" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/build/intermediates/incremental/mergeResources/test/debug/merger.xml" afterPath="$PROJECT_DIR$/build/intermediates/incremental/mergeResources/test/debug/merger.xml" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/build/intermediates/manifests/full/debug/AndroidManifest.xml" afterPath="$PROJECT_DIR$/build/intermediates/manifests/full/debug/AndroidManifest.xml" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/build/intermediates/res/debug/layout/main.xml" afterPath="$PROJECT_DIR$/build/intermediates/res/debug/layout/main.xml" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/build/intermediates/res/debug/layout/master_chooser.xml" afterPath="$PROJECT_DIR$/build/intermediates/res/debug/layout/master_chooser.xml" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/build/intermediates/res/debug/layout/pan_tilt.xml" afterPath="$PROJECT_DIR$/build/intermediates/res/debug/layout/pan_tilt.xml" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/build/intermediates/res/debug/layout/virtual_joystick.xml" afterPath="$PROJECT_DIR$/build/intermediates/res/debug/layout/virtual_joystick.xml" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/build/intermediates/res/debug/values/values.xml" afterPath="$PROJECT_DIR$/build/intermediates/res/debug/values/values.xml" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/build/intermediates/symbols/debug/R.txt" afterPath="$PROJECT_DIR$/build/intermediates/symbols/debug/R.txt" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/build/intermediates/tmp/dex/debug/inputList.txt" afterPath="$PROJECT_DIR$/build/intermediates/tmp/dex/debug/inputList.txt" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/build/outputs/apk/manifest-merger-debug-report.txt" afterPath="$PROJECT_DIR$/build/outputs/apk/manifest-merger-debug-report.txt" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/controller.iml" afterPath="$PROJECT_DIR$/controller.iml" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/src/main/AndroidManifest.xml" afterPath="$PROJECT_DIR$/src/main/AndroidManifest.xml" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/src/main/java/com/github/ros_java/android_ROS/controller/BluetoothController.java" afterPath="" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/.idea/misc.xml" afterPath="$PROJECT_DIR$/.idea/misc.xml" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/.idea/workspace.xml" afterPath="$PROJECT_DIR$/.idea/workspace.xml" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/src/main/java/com/github/ros_java/android_ROS/controller/Controller.java" afterPath="$PROJECT_DIR$/src/main/java/com/github/ros_java/android_ROS/controller/Controller.java" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/src/main/java/com/github/ros_java/android_ROS/controller/GuiReader.java" afterPath="$PROJECT_DIR$/src/main/java/com/github/ros_java/android_ROS/controller/GuiReader.java" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/src/main/java/com/github/ros_java/android_ROS/controller/InputManager.java" afterPath="$PROJECT_DIR$/src/main/java/com/github/ros_java/android_ROS/controller/InputManager.java" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/src/main/java/com/github/ros_java/android_ROS/controller/Listener.java" afterPath="$PROJECT_DIR$/src/main/java/com/github/ros_java/android_ROS/controller/Listener.java" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/src/main/java/com/github/ros_java/android_ROS/controller/Publisherr.java" afterPath="$PROJECT_DIR$/src/main/java/com/github/ros_java/android_ROS/controller/Publisherr.java" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/src/main/res/values/strings.xml" afterPath="$PROJECT_DIR$/src/main/res/values/strings.xml" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/src/main/java/com/github/ros_java/android_ROS/controller/ViewManager.java" afterPath="$PROJECT_DIR$/src/main/java/com/github/ros_java/android_ROS/controller/ViewManager.java" />
     </list>
     <ignored path="controller.iws" />
     <ignored path=".idea/workspace.xml" />
@@ -322,12 +34,22 @@
     <favorites_list name="controller" />
   </component>
   <component name="FileEditorManager">
-    <leaf>
+    <leaf SIDE_TABS_SIZE_LIMIT_KEY="300">
       <file leaf-file-name="GuiReader.java" pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/src/main/java/com/github/ros_java/android_ROS/controller/GuiReader.java">
           <provider selected="true" editor-type-id="text-editor">
             <state vertical-scroll-proportion="0.0">
-              <caret line="166" column="41" selection-start-line="166" selection-start-column="41" selection-end-line="166" selection-end-column="41" />
+              <caret line="145" column="40" selection-start-line="145" selection-start-column="40" selection-end-line="145" selection-end-column="40" />
+              <folding />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="gui.txt" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/src/main/res/raw/gui.txt">
+          <provider selected="true" editor-type-id="text-editor">
+            <state vertical-scroll-proportion="0.0">
+              <caret line="0" column="0" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
               <folding />
             </state>
           </provider>
@@ -336,38 +58,9 @@
       <file leaf-file-name="strings.xml" pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/src/main/res/values/strings.xml">
           <provider selected="true" editor-type-id="text-editor">
-            <state vertical-scroll-proportion="-1.4150944">
+            <state vertical-scroll-proportion="0.0">
               <caret line="5" column="0" selection-start-line="5" selection-start-column="0" selection-end-line="5" selection-end-column="0" />
               <folding />
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file leaf-file-name="Listener.java" pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/src/main/java/com/github/ros_java/android_ROS/controller/Listener.java">
-          <provider selected="true" editor-type-id="text-editor">
-            <state vertical-scroll-proportion="0.0">
-              <caret line="41" column="0" selection-start-line="41" selection-start-column="0" selection-end-line="41" selection-end-column="0" />
-              <folding>
-                <element signature="e#1480#1514#0" expanded="true" />
-                <element signature="e#1834#1835#0" expanded="true" />
-                <element signature="e#1869#1870#0" expanded="true" />
-                <element signature="e#1913#1914#0" expanded="true" />
-                <element signature="e#1949#1950#0" expanded="true" />
-              </folding>
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file leaf-file-name="Publisherr.java" pinned="false" current-in-tab="true">
-        <entry file="file://$PROJECT_DIR$/src/main/java/com/github/ros_java/android_ROS/controller/Publisherr.java">
-          <provider selected="true" editor-type-id="text-editor">
-            <state vertical-scroll-proportion="6.247934">
-              <caret line="158" column="5" selection-start-line="158" selection-start-column="5" selection-end-line="158" selection-end-column="5" />
-              <folding>
-                <element signature="e#792#793#0" expanded="true" />
-                <element signature="e#846#847#0" expanded="true" />
-              </folding>
             </state>
           </provider>
         </entry>
@@ -376,8 +69,22 @@
         <entry file="file://$PROJECT_DIR$/src/main/java/com/github/ros_java/android_ROS/controller/Controller.java">
           <provider selected="true" editor-type-id="text-editor">
             <state vertical-scroll-proportion="0.0">
-              <caret line="130" column="0" selection-start-line="130" selection-start-column="0" selection-end-line="130" selection-end-column="0" />
+              <caret line="129" column="55" selection-start-line="129" selection-start-column="55" selection-end-line="129" selection-end-column="55" />
               <folding />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="ImageListener.java" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/src/main/java/com/github/ros_java/android_ROS/controller/ImageListener.java">
+          <provider selected="true" editor-type-id="text-editor">
+            <state vertical-scroll-proportion="0.0">
+              <caret line="26" column="5" selection-start-line="26" selection-start-column="5" selection-end-line="26" selection-end-column="5" />
+              <folding>
+                <element signature="imports" expanded="true" />
+                <element signature="e#405#406#0" expanded="true" />
+                <element signature="e#435#436#0" expanded="true" />
+              </folding>
             </state>
           </provider>
         </entry>
@@ -386,13 +93,32 @@
         <entry file="file://$PROJECT_DIR$/src/main/java/com/github/ros_java/android_ROS/controller/InputManager.java">
           <provider selected="true" editor-type-id="text-editor">
             <state vertical-scroll-proportion="0.0">
-              <caret line="217" column="22" selection-start-line="217" selection-start-column="22" selection-end-line="217" selection-end-column="22" />
+              <caret line="47" column="41" selection-start-line="47" selection-start-column="41" selection-end-line="47" selection-end-column="41" />
               <folding />
             </state>
           </provider>
         </entry>
       </file>
+      <file leaf-file-name="Publisherr.java" pinned="false" current-in-tab="true">
+        <entry file="file://$PROJECT_DIR$/src/main/java/com/github/ros_java/android_ROS/controller/Publisherr.java">
+          <provider selected="true" editor-type-id="text-editor">
+            <state vertical-scroll-proportion="0.9053628">
+              <caret line="97" column="52" selection-start-line="97" selection-start-column="52" selection-end-line="97" selection-end-column="52" />
+              <folding>
+                <element signature="imports" expanded="true" />
+              </folding>
+            </state>
+          </provider>
+        </entry>
+      </file>
     </leaf>
+  </component>
+  <component name="FileTemplateManagerImpl">
+    <option name="RECENT_TEMPLATES">
+      <list>
+        <option value="Class" />
+      </list>
+    </option>
   </component>
   <component name="Git.Settings">
     <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$" />
@@ -1594,19 +1320,21 @@
       <list>
         <option value="$PROJECT_DIR$/src/main/AndroidManifest.xml" />
         <option value="$PROJECT_DIR$/src/main/res/values/strings.xml" />
-        <option value="$PROJECT_DIR$/src/main/java/com/github/ros_java/android_ROS/controller/GuiReader.java" />
+        <option value="$PROJECT_DIR$/src/main/java/com/github/ros_java/android_ROS/controller/ViewManager.java" />
+        <option value="$PROJECT_DIR$/src/main/java/com/github/ros_java/android_ROS/controller/ImageListener.java" />
         <option value="$PROJECT_DIR$/src/main/java/com/github/ros_java/android_ROS/controller/Listener.java" />
         <option value="$PROJECT_DIR$/src/main/java/com/github/ros_java/android_ROS/controller/Controller.java" />
+        <option value="$PROJECT_DIR$/src/main/java/com/github/ros_java/android_ROS/controller/GuiReader.java" />
         <option value="$PROJECT_DIR$/src/main/java/com/github/ros_java/android_ROS/controller/InputManager.java" />
         <option value="$PROJECT_DIR$/src/main/java/com/github/ros_java/android_ROS/controller/Publisherr.java" />
       </list>
     </option>
   </component>
   <component name="ProjectFrameBounds">
-    <option name="x" value="75" />
-    <option name="y" value="64" />
-    <option name="width" value="1281" />
-    <option name="height" value="599" />
+    <option name="x" value="65" />
+    <option name="y" value="24" />
+    <option name="width" value="1301" />
+    <option name="height" value="639" />
   </component>
   <component name="ProjectLevelVcsManager" settingsEditedManually="false">
     <OptionsSetting value="true" id="Add" />
@@ -1633,58 +1361,16 @@
       <foldersAlwaysOnTop value="true" />
     </navigator>
     <panes>
-      <pane id="Scratches" />
       <pane id="Scope" />
-      <pane id="ProjectPane" />
+      <pane id="Scratches" />
       <pane id="PackagesPane" />
+      <pane id="ProjectPane" />
       <pane id="AndroidView">
         <subPane>
           <PATH>
             <PATH_ELEMENT>
               <option name="myItemId" value="controller" />
               <option name="myItemType" value="com.android.tools.idea.navigator.nodes.AndroidViewProjectNode" />
-            </PATH_ELEMENT>
-          </PATH>
-          <PATH>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="controller" />
-              <option name="myItemType" value="com.android.tools.idea.navigator.nodes.AndroidViewProjectNode" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="controller" />
-              <option name="myItemType" value="com.android.tools.idea.navigator.nodes.AndroidModuleNode" />
-            </PATH_ELEMENT>
-          </PATH>
-          <PATH>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="controller" />
-              <option name="myItemType" value="com.android.tools.idea.navigator.nodes.AndroidViewProjectNode" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="controller" />
-              <option name="myItemType" value="com.android.tools.idea.navigator.nodes.AndroidModuleNode" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="java" />
-              <option name="myItemType" value="com.android.tools.idea.navigator.nodes.AndroidSourceTypeNode" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="controller" />
-              <option name="myItemType" value="com.android.tools.idea.navigator.nodes.AndroidPsiDirectoryNode" />
-            </PATH_ELEMENT>
-          </PATH>
-          <PATH>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="controller" />
-              <option name="myItemType" value="com.android.tools.idea.navigator.nodes.AndroidViewProjectNode" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="controller" />
-              <option name="myItemType" value="com.android.tools.idea.navigator.nodes.AndroidModuleNode" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="java" />
-              <option name="myItemType" value="com.android.tools.idea.navigator.nodes.AndroidSourceTypeNode" />
             </PATH_ELEMENT>
           </PATH>
         </subPane>
@@ -1696,6 +1382,7 @@
     <property name="settings.editor.selected.configurable" value="android.sdk-updates" />
     <property name="settings.editor.splitter.proportion" value="0.2" />
     <property name="device.picker.selection" value="32309a89168a211f" />
+    <property name="show.do.not.ask.upgrade.gradle.plugin" value="false" />
   </component>
   <component name="RunManager" selected="Android Application.controller">
     <configuration default="true" type="AndroidRunConfigurationType" factoryName="Android Application">
@@ -1730,6 +1417,39 @@
       </Profilers>
       <option name="DEEP_LINK" value="" />
       <option name="ACTIVITY_CLASS" value="" />
+      <method />
+    </configuration>
+    <configuration default="true" type="AndroidTestRunConfigurationType" factoryName="Android Tests">
+      <module name="" />
+      <option name="TESTING_TYPE" value="0" />
+      <option name="INSTRUMENTATION_RUNNER_CLASS" value="" />
+      <option name="METHOD_NAME" value="" />
+      <option name="CLASS_NAME" value="" />
+      <option name="PACKAGE_NAME" value="" />
+      <option name="EXTRA_OPTIONS" value="" />
+      <option name="TARGET_SELECTION_MODE" value="SHOW_DIALOG" />
+      <option name="PREFERRED_AVD" value="" />
+      <option name="CLEAR_LOGCAT" value="false" />
+      <option name="SHOW_LOGCAT_AUTOMATICALLY" value="true" />
+      <option name="SKIP_NOOP_APK_INSTALLATIONS" value="true" />
+      <option name="FORCE_STOP_RUNNING_APP" value="true" />
+      <option name="DEBUGGER_TYPE" value="Java" />
+      <option name="USE_LAST_SELECTED_DEVICE" value="false" />
+      <option name="PREFERRED_AVD" value="" />
+      <option name="SELECTED_CLOUD_MATRIX_CONFIGURATION_ID" value="-1" />
+      <option name="SELECTED_CLOUD_MATRIX_PROJECT_ID" value="" />
+      <Native>
+        <option name="WORKING_DIR" value="" />
+        <option name="TARGET_LOGGING_CHANNELS" value="lldb process:gdb-remote packets" />
+      </Native>
+      <Java />
+      <Hybrid>
+        <option name="WORKING_DIR" value="" />
+        <option name="TARGET_LOGGING_CHANNELS" value="lldb process:gdb-remote packets" />
+      </Hybrid>
+      <Profilers>
+        <option name="GAPID_DISABLE_PCS" value="false" />
+      </Profilers>
       <method />
     </configuration>
     <configuration default="true" type="Application" factoryName="Application">
@@ -1771,6 +1491,48 @@
         <option name="Android.Gradle.BeforeRunTask" enabled="true" />
       </method>
     </configuration>
+    <configuration default="true" type="JUnitTestDiscovery" factoryName="JUnit Test Discovery" changeList="All">
+      <extension name="coverage" enabled="false" merge="false" sample_coverage="true" runner="idea" />
+      <module name="" />
+      <option name="ALTERNATIVE_JRE_PATH_ENABLED" value="false" />
+      <option name="ALTERNATIVE_JRE_PATH" />
+      <option name="PACKAGE_NAME" />
+      <option name="MAIN_CLASS_NAME" />
+      <option name="METHOD_NAME" />
+      <option name="TEST_OBJECT" value="class" />
+      <option name="VM_PARAMETERS" />
+      <option name="PARAMETERS" />
+      <option name="WORKING_DIRECTORY" />
+      <option name="ENV_VARIABLES" />
+      <option name="PASS_PARENT_ENVS" value="true" />
+      <option name="TEST_SEARCH_SCOPE">
+        <value defaultName="singleModule" />
+      </option>
+      <envs />
+      <patterns />
+      <method />
+    </configuration>
+    <configuration default="true" type="JarApplication" factoryName="JAR Application">
+      <extension name="coverage" enabled="false" merge="false" sample_coverage="true" runner="idea" />
+      <envs />
+      <method />
+    </configuration>
+    <configuration default="true" type="Java Scratch" factoryName="Java Scratch">
+      <extension name="coverage" enabled="false" merge="false" sample_coverage="true" runner="idea" />
+      <option name="SCRATCH_FILE_ID" value="0" />
+      <option name="MAIN_CLASS_NAME" />
+      <option name="VM_PARAMETERS" />
+      <option name="PROGRAM_PARAMETERS" />
+      <option name="WORKING_DIRECTORY" />
+      <option name="ALTERNATIVE_JRE_PATH_ENABLED" value="false" />
+      <option name="ALTERNATIVE_JRE_PATH" />
+      <option name="ENABLE_SWING_INSPECTOR" value="false" />
+      <option name="ENV_VARIABLES" />
+      <option name="PASS_PARENT_ENVS" value="true" />
+      <module name="" />
+      <envs />
+      <method />
+    </configuration>
     <configuration default="true" type="Remote" factoryName="Remote">
       <option name="USE_SOCKET_TRANSPORT" value="true" />
       <option name="SERVER_MODE" value="false" />
@@ -1793,6 +1555,34 @@
       <option name="VM_PARAMETERS" value="-ea" />
       <option name="PARAMETERS" />
       <option name="WORKING_DIRECTORY" value="$MODULE_DIR$" />
+      <option name="OUTPUT_DIRECTORY" />
+      <option name="ANNOTATION_TYPE" />
+      <option name="ENV_VARIABLES" />
+      <option name="PASS_PARENT_ENVS" value="true" />
+      <option name="TEST_SEARCH_SCOPE">
+        <value defaultName="singleModule" />
+      </option>
+      <option name="USE_DEFAULT_REPORTERS" value="false" />
+      <option name="PROPERTIES_FILE" />
+      <envs />
+      <properties />
+      <listeners />
+      <method />
+    </configuration>
+    <configuration default="true" type="TestNGTestDiscovery" factoryName="TestNG Test Discovery" changeList="All">
+      <extension name="coverage" enabled="false" merge="false" sample_coverage="true" runner="idea" />
+      <module name="" />
+      <option name="ALTERNATIVE_JRE_PATH_ENABLED" value="false" />
+      <option name="ALTERNATIVE_JRE_PATH" />
+      <option name="SUITE_NAME" />
+      <option name="PACKAGE_NAME" />
+      <option name="MAIN_CLASS_NAME" />
+      <option name="METHOD_NAME" />
+      <option name="GROUP_NAME" />
+      <option name="TEST_OBJECT" value="CLASS" />
+      <option name="VM_PARAMETERS" />
+      <option name="PARAMETERS" />
+      <option name="WORKING_DIRECTORY" />
       <option name="OUTPUT_DIRECTORY" />
       <option name="ANNOTATION_TYPE" />
       <option name="ENV_VARIABLES" />
@@ -1868,7 +1658,7 @@
     <servers />
   </component>
   <component name="ToolWindowManager">
-    <frame x="75" y="64" width="1281" height="599" extended-state="0" />
+    <frame x="65" y="24" width="1301" height="639" extended-state="6" />
     <editor active="true" />
     <layout>
       <window_info id="TODO" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="6" side_tool="false" content_ui="tabs" />
@@ -1877,7 +1667,7 @@
       <window_info id="Palette&#9;" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" />
       <window_info id="Capture Analysis" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" />
       <window_info id="Event Log" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="7" side_tool="true" content_ui="tabs" />
-      <window_info id="Android Monitor" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" show_stripe_button="true" weight="0.42736843" sideWeight="0.5" order="7" side_tool="false" content_ui="tabs" />
+      <window_info id="Android Monitor" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" show_stripe_button="true" weight="0.3262136" sideWeight="0.5" order="7" side_tool="false" content_ui="tabs" />
       <window_info id="Version Control" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="7" side_tool="false" content_ui="tabs" />
       <window_info id="Run" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="2" side_tool="false" content_ui="tabs" />
       <window_info id="Terminal" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="7" side_tool="false" content_ui="tabs" />
@@ -1885,8 +1675,7 @@
       <window_info id="Capture Tool" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" />
       <window_info id="Gradle Console" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="7" side_tool="true" content_ui="tabs" />
       <window_info id="Designer" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" />
-      <window_info id="Project" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" show_stripe_button="true" weight="0.24939272" sideWeight="0.5" order="0" side_tool="false" content_ui="combo" />
-      <window_info id="Find" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="1" side_tool="false" content_ui="tabs" />
+      <window_info id="Project" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.24541833" sideWeight="0.5" order="0" side_tool="false" content_ui="combo" />
       <window_info id="Gradle" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" />
       <window_info id="Structure" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.25" sideWeight="0.5" order="1" side_tool="false" content_ui="tabs" />
       <window_info id="Android Model" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="3" side_tool="true" content_ui="tabs" />
@@ -1898,6 +1687,7 @@
       <window_info id="Hierarchy" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.25" sideWeight="0.5" order="2" side_tool="false" content_ui="combo" />
       <window_info id="Ant Build" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.25" sideWeight="0.5" order="1" side_tool="false" content_ui="tabs" />
       <window_info id="Inspection" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.4" sideWeight="0.5" order="5" side_tool="false" content_ui="tabs" />
+      <window_info id="Find" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="1" side_tool="false" content_ui="tabs" />
     </layout>
   </component>
   <component name="VcsContentAnnotationSettings">
@@ -1908,6 +1698,58 @@
     <watches-manager />
   </component>
   <component name="editorHistoryManager">
+    <entry file="file://$PROJECT_DIR$/src/main/java/com/github/ros_java/android_ROS/controller/GuiReader.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state vertical-scroll-proportion="0.0">
+          <caret line="0" column="0" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/res/raw/gui.txt">
+      <provider selected="true" editor-type-id="text-editor">
+        <state vertical-scroll-proportion="0.0">
+          <caret line="0" column="0" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/res/values/strings.xml">
+      <provider selected="true" editor-type-id="text-editor">
+        <state vertical-scroll-proportion="0.0">
+          <caret line="5" column="0" selection-start-line="5" selection-start-column="0" selection-end-line="5" selection-end-column="0" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/java/com/github/ros_java/android_ROS/controller/Controller.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state vertical-scroll-proportion="0.0">
+          <caret line="129" column="55" selection-start-line="129" selection-start-column="55" selection-end-line="129" selection-end-column="55" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/java/com/github/ros_java/android_ROS/controller/ImageListener.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state vertical-scroll-proportion="0.0">
+          <caret line="26" column="5" selection-start-line="26" selection-start-column="5" selection-end-line="26" selection-end-column="5" />
+          <folding>
+            <element signature="imports" expanded="true" />
+            <element signature="e#405#406#0" expanded="true" />
+            <element signature="e#435#436#0" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/java/com/github/ros_java/android_ROS/controller/InputManager.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state vertical-scroll-proportion="0.0">
+          <caret line="217" column="22" selection-start-line="217" selection-start-column="22" selection-end-line="217" selection-end-column="22" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
     <entry file="file://$PROJECT_DIR$/src/main/AndroidManifest.xml">
       <provider selected="true" editor-type-id="text-editor">
         <state vertical-scroll-proportion="-5.625">
@@ -1926,9 +1768,59 @@
         </state>
       </provider>
     </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/res/raw/gui.txt">
+      <provider selected="true" editor-type-id="text-editor">
+        <state vertical-scroll-proportion="0.0">
+          <caret line="0" column="0" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/java/com/github/ros_java/android_ROS/controller/ViewManager.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state vertical-scroll-proportion="-5.839793">
+          <caret line="32" column="40" selection-start-line="32" selection-start-column="40" selection-end-line="32" selection-end-column="40" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/java/com/github/ros_java/android_ROS/controller/ImageListener.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state vertical-scroll-proportion="0.0">
+          <caret line="26" column="5" selection-start-line="26" selection-start-column="5" selection-end-line="26" selection-end-column="5" />
+          <folding>
+            <element signature="imports" expanded="true" />
+            <element signature="e#405#406#0" expanded="true" />
+            <element signature="e#435#436#0" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/java/com/github/ros_java/android_ROS/controller/Controller.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state vertical-scroll-proportion="0.0">
+          <caret line="129" column="55" selection-start-line="129" selection-start-column="55" selection-end-line="129" selection-end-column="55" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/java/com/github/ros_java/android_ROS/controller/Listener.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state vertical-scroll-proportion="0.60723513">
+          <caret line="29" column="20" selection-start-line="29" selection-start-column="20" selection-end-line="29" selection-end-column="20" />
+          <folding>
+            <element signature="e#1643#1677#0" expanded="true" />
+            <element signature="e#1995#1996#0" expanded="true" />
+            <element signature="e#2030#2031#0" expanded="true" />
+            <element signature="e#2074#2075#0" expanded="true" />
+            <element signature="e#2110#2111#0" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
     <entry file="file://$PROJECT_DIR$/src/main/res/values/strings.xml">
       <provider selected="true" editor-type-id="text-editor">
-        <state vertical-scroll-proportion="-1.4150944">
+        <state vertical-scroll-proportion="0.0">
           <caret line="5" column="0" selection-start-line="5" selection-start-column="0" selection-end-line="5" selection-end-column="0" />
           <folding />
         </state>
@@ -1937,7 +1829,7 @@
     <entry file="file://$PROJECT_DIR$/src/main/java/com/github/ros_java/android_ROS/controller/GuiReader.java">
       <provider selected="true" editor-type-id="text-editor">
         <state vertical-scroll-proportion="0.0">
-          <caret line="166" column="41" selection-start-line="166" selection-start-column="41" selection-end-line="166" selection-end-column="41" />
+          <caret line="145" column="40" selection-start-line="145" selection-start-column="40" selection-end-line="145" selection-end-column="40" />
           <folding />
         </state>
       </provider>
@@ -1945,40 +1837,25 @@
     <entry file="file://$PROJECT_DIR$/src/main/java/com/github/ros_java/android_ROS/controller/InputManager.java">
       <provider selected="true" editor-type-id="text-editor">
         <state vertical-scroll-proportion="0.0">
-          <caret line="217" column="22" selection-start-line="217" selection-start-column="22" selection-end-line="217" selection-end-column="22" />
+          <caret line="47" column="41" selection-start-line="47" selection-start-column="41" selection-end-line="47" selection-end-column="41" />
           <folding />
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/src/main/java/com/github/ros_java/android_ROS/controller/Controller.java">
+    <entry file="jar://$PROJECT_DIR$/libs/msgs.jar!/msgs/Cmd.class">
       <provider selected="true" editor-type-id="text-editor">
-        <state vertical-scroll-proportion="0.0">
-          <caret line="130" column="0" selection-start-line="130" selection-start-column="0" selection-end-line="130" selection-end-column="0" />
+        <state vertical-scroll-proportion="0.8958333">
+          <caret line="35" column="0" selection-start-line="35" selection-start-column="0" selection-end-line="35" selection-end-column="0" />
           <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/main/java/com/github/ros_java/android_ROS/controller/Listener.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state vertical-scroll-proportion="0.0">
-          <caret line="41" column="0" selection-start-line="41" selection-start-column="0" selection-end-line="41" selection-end-column="0" />
-          <folding>
-            <element signature="e#1480#1514#0" expanded="true" />
-            <element signature="e#1834#1835#0" expanded="true" />
-            <element signature="e#1869#1870#0" expanded="true" />
-            <element signature="e#1913#1914#0" expanded="true" />
-            <element signature="e#1949#1950#0" expanded="true" />
-          </folding>
         </state>
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/src/main/java/com/github/ros_java/android_ROS/controller/Publisherr.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state vertical-scroll-proportion="6.247934">
-          <caret line="158" column="5" selection-start-line="158" selection-start-column="5" selection-end-line="158" selection-end-column="5" />
+        <state vertical-scroll-proportion="0.9053628">
+          <caret line="97" column="52" selection-start-line="97" selection-start-column="52" selection-end-line="97" selection-end-column="52" />
           <folding>
-            <element signature="e#792#793#0" expanded="true" />
-            <element signature="e#846#847#0" expanded="true" />
+            <element signature="imports" expanded="true" />
           </folding>
         </state>
       </provider>
