@@ -152,23 +152,30 @@ public class GuiReader {
 
     private void listenerHandler(List<String> list) {
         Log.i("Showing", "listener");
-
+        String location = "0 0";
         for(int listListenerIterator = 0; listListenerIterator < list.size(); listListenerIterator++) {
-            if(list.get(listListenerIterator).startsWith("\t-topic:")) {
-                newSub = new Listener(app);
-                Log.i("topic: ", list.get(listListenerIterator));
-                subTopic = list.get(listListenerIterator).substring(9);
-                newSub.setTopic(subTopic);
-                list.remove(listListenerIterator);
-                listListenerIterator--;
-            } else if(list.get(listListenerIterator).startsWith("\tmsg_type:")) {
+
+            if(list.get(listListenerIterator).startsWith("\t-msg_type:")) {
                 Log.i("msg_type: ", list.get(listListenerIterator));
-                subTyp = list.get(listListenerIterator).substring(11);
+                 newSub = new Listener(app);
+                subTyp = list.get(listListenerIterator).substring(12);
                 newSub.setMsgTyp(subTyp);
                 list.remove(listListenerIterator);
                 listListenerIterator--;
-            } else {
+            } else if(list.get(listListenerIterator).startsWith("\ttopic:")) {
+
+                Log.i("topic: ", list.get(listListenerIterator));
+                subTopic = list.get(listListenerIterator).substring(8);
+                newSub.setTopic(subTopic);
+                list.remove(listListenerIterator);
+                listListenerIterator--;
+            } else if(list.get(listListenerIterator).startsWith("\txy:")) {
+                location= list.get(listListenerIterator).substring(5);
+            }
+            else {
+                 Log.i("Breaking", "Listener");
                 Controller.listenerList.add(newSub);
+                ViewManager.moveListener(location);
                 break;
             }
         }
@@ -179,6 +186,7 @@ public class GuiReader {
 
 
         for(int listPublisherIterator = 0; listPublisherIterator < list.size(); listPublisherIterator++) {
+            Log.i("Pub line", list.get(listPublisherIterator));
             if(list.get(listPublisherIterator).startsWith("\t-topic:")) {
                 Log.i("topic: ", list.get(listPublisherIterator));
                 pubTopic = list.get(listPublisherIterator).substring(9);
@@ -186,9 +194,10 @@ public class GuiReader {
                 list.remove(listPublisherIterator);
                 listPublisherIterator--;
             } else if(list.get(listPublisherIterator).startsWith("\tmsg_type:")) {
+                Log.i("msg_type: ", list.get(listPublisherIterator));
                 pubTyp = list.get(listPublisherIterator).substring(11);
                 newPub.setMsgType(pubTyp);
-                Log.i("msg_type: ", list.get(listPublisherIterator));
+
                 list.remove(listPublisherIterator);
                 listPublisherIterator--;
             }  else if(list.get(listPublisherIterator).startsWith("\twait:")) {
@@ -210,6 +219,7 @@ public class GuiReader {
                 Controller.publisherrList.add(newPub);
 
             } else {
+                Log.i("Breaking", "publisher");
                 break;
             }
         }

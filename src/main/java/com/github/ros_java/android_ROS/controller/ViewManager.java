@@ -208,6 +208,12 @@ public class ViewManager {
         }
     }
 
+    public static void moveListener(String inputLoc) {
+        String[] XY = inputLoc.split(" ");
+        Controller.listenerList.get(0).getCurrentRTV().setX(Integer.parseInt(XY[0]));
+        Controller.listenerList.get(0).getCurrentRTV().setY(Integer.parseInt(XY[1]));
+    }
+
 
     public static void sizeObject(String current, String sizeAsString) {
         String[] size = sizeAsString.split(" ");

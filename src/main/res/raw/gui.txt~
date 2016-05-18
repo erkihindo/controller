@@ -1,15 +1,22 @@
 inputs:
 	-type: slider
+	xy: 0 500
 	-type: joysticks
-	-type: button
-publisher:
-	-topic: /com_cmd
-	-msg_type: msgs/Cmd
+	size: 1250 400
+	-type: joysticksTable
+	xy: 400 300
 
 listener:
-	-topic: /vision_data
 	-msg_type: msgs/ImageData
-	
+	topic: /vision_data
+	xy: 400 50
+
+publisher:
+	-topic: /com_cmd
+	msg_type: msgs/Cmd
+	data: leftJSdistance leftJSangle rightYSxangle rightJSup
+
 image_listener:
 	-topic: /front_cam/image/compressed
+
 

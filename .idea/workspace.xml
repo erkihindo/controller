@@ -11,66 +11,22 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="ac399082-e6b8-4a9b-b2bd-62b979c59d75" name="Default" comment="">
-      <change type="DELETED" beforePath="$PROJECT_DIR$/.idea/libraries/actionlib_msgs_1_11_7.xml" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/.idea/libraries/android_10_0_2_0.xml" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/.idea/libraries/android_15_0_2_0.xml" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/.idea/libraries/apache_xmlrpc_client_0_2_1.xml" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/.idea/libraries/apache_xmlrpc_common_0_2_1.xml" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/.idea/libraries/apache_xmlrpc_server_0_2_1.xml" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/.idea/libraries/com_springsource_org_apache_commons_codec_1_3_0.xml" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/.idea/libraries/com_springsource_org_apache_commons_httpclient_3_1_0.xml" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/.idea/libraries/com_springsource_org_apache_commons_io_1_4_0.xml" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/.idea/libraries/com_springsource_org_apache_commons_lang_2_4_0.xml" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/.idea/libraries/com_springsource_org_apache_commons_logging_1_1_1.xml" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/.idea/libraries/com_springsource_org_apache_commons_net_2_0_0.xml" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/.idea/libraries/commons_pool_1_6.xml" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/.idea/libraries/diagnostic_msgs_1_11_7.xml" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/.idea/libraries/dnsjava_2_1_1.xml" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/.idea/libraries/geometry_msgs_1_11_7.xml" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/.idea/libraries/gingerbread_0_2_0.xml" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/.idea/libraries/gradle_plugins_0_2_1.xml" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/.idea/libraries/guava_12_0.xml" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/.idea/libraries/joystickview.xml" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/.idea/libraries/jsr305_1_3_9.xml" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/.idea/libraries/message_generation_0_2_1.xml" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/.idea/libraries/msgs.xml" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/.idea/libraries/nav_msgs_1_11_7.xml" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/.idea/libraries/netty_3_5_2_Final.xml" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/.idea/libraries/rosgraph_msgs_1_11_1.xml" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/.idea/libraries/rosjava_0_2_1.xml" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/.idea/libraries/rosjava_geometry_0_2_1.xml" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/.idea/libraries/rosjava_test_msgs_0_2_1.xml" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/.idea/libraries/sensor_msgs_1_11_7.xml" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/.idea/libraries/std_msgs_0_5_9.xml" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/.idea/libraries/support_annotations_23_2_0.xml" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/.idea/libraries/support_v4_23_2_0.xml" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/.idea/libraries/tf2_msgs_0_5_9.xml" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/.idea/libraries/visualization_msgs_1_11_7.xml" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/.idea/libraries/ws_commons_util_1_0_1.xml" afterPath="" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/build/intermediates/classes/debug/com/github/ros_java/android_ROS/controller/Controller$1.class" afterPath="$PROJECT_DIR$/build/intermediates/classes/debug/com/github/ros_java/android_ROS/controller/Controller$1.class" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/build/intermediates/classes/debug/com/github/ros_java/android_ROS/controller/Controller$2.class" afterPath="$PROJECT_DIR$/build/intermediates/classes/debug/com/github/ros_java/android_ROS/controller/Controller$2.class" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/build/intermediates/classes/debug/com/github/ros_java/android_ROS/controller/Controller.class" afterPath="$PROJECT_DIR$/build/intermediates/classes/debug/com/github/ros_java/android_ROS/controller/Controller.class" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/build/intermediates/classes/debug/com/github/ros_java/android_ROS/controller/GuiReader.class" afterPath="$PROJECT_DIR$/build/intermediates/classes/debug/com/github/ros_java/android_ROS/controller/GuiReader.class" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/build/intermediates/classes/debug/com/github/ros_java/android_ROS/controller/InputManager.class" afterPath="$PROJECT_DIR$/build/intermediates/classes/debug/com/github/ros_java/android_ROS/controller/InputManager.class" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/build/intermediates/classes/debug/com/github/ros_java/android_ROS/controller/Listener$1.class" afterPath="$PROJECT_DIR$/build/intermediates/classes/debug/com/github/ros_java/android_ROS/controller/Listener$1.class" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/build/intermediates/classes/debug/com/github/ros_java/android_ROS/controller/Listener.class" afterPath="$PROJECT_DIR$/build/intermediates/classes/debug/com/github/ros_java/android_ROS/controller/Listener.class" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/build/intermediates/classes/debug/com/github/ros_java/android_ROS/controller/Publisherr$1.class" afterPath="$PROJECT_DIR$/build/intermediates/classes/debug/com/github/ros_java/android_ROS/controller/Publisherr$1.class" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/build/intermediates/classes/debug/com/github/ros_java/android_ROS/controller/Publisherr.class" afterPath="$PROJECT_DIR$/build/intermediates/classes/debug/com/github/ros_java/android_ROS/controller/Publisherr.class" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/build/intermediates/classes/debug/com/github/ros_java/android_ROS/controller/ViewManager$4.class" afterPath="$PROJECT_DIR$/build/intermediates/classes/debug/com/github/ros_java/android_ROS/controller/ViewManager$4.class" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/build/intermediates/classes/debug/com/github/ros_java/android_ROS/controller/ViewManager$5.class" afterPath="$PROJECT_DIR$/build/intermediates/classes/debug/com/github/ros_java/android_ROS/controller/ViewManager$5.class" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/build/intermediates/classes/debug/com/github/ros_java/android_ROS/controller/ViewManager.class" afterPath="$PROJECT_DIR$/build/intermediates/classes/debug/com/github/ros_java/android_ROS/controller/ViewManager.class" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/build/intermediates/dex/debug/classes.dex" afterPath="$PROJECT_DIR$/build/intermediates/dex/debug/classes.dex" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/build/intermediates/res/resources-debug-test.ap_" afterPath="$PROJECT_DIR$/build/intermediates/res/resources-debug-test.ap_" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/build/intermediates/res/resources-debug.ap_" afterPath="$PROJECT_DIR$/build/intermediates/res/resources-debug.ap_" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/build/outputs/apk/controller-debug-unaligned.apk" afterPath="$PROJECT_DIR$/build/outputs/apk/controller-debug-unaligned.apk" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/build/outputs/apk/controller-debug.apk" afterPath="$PROJECT_DIR$/build/outputs/apk/controller-debug.apk" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/.idea/misc.xml" afterPath="$PROJECT_DIR$/.idea/misc.xml" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/.idea/workspace.xml" afterPath="$PROJECT_DIR$/.idea/workspace.xml" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/build/intermediates/res/debug/raw/gui.txt" afterPath="$PROJECT_DIR$/build/intermediates/res/debug/raw/gui.txt" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/src/main/java/com/github/ros_java/android_ROS/controller/Controller.java" afterPath="$PROJECT_DIR$/src/main/java/com/github/ros_java/android_ROS/controller/Controller.java" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/src/main/java/com/github/ros_java/android_ROS/controller/GuiReader.java" afterPath="$PROJECT_DIR$/src/main/java/com/github/ros_java/android_ROS/controller/GuiReader.java" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/src/main/java/com/github/ros_java/android_ROS/controller/InputManager.java" afterPath="$PROJECT_DIR$/src/main/java/com/github/ros_java/android_ROS/controller/InputManager.java" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/src/main/java/com/github/ros_java/android_ROS/controller/Listener.java" afterPath="$PROJECT_DIR$/src/main/java/com/github/ros_java/android_ROS/controller/Listener.java" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/src/main/java/com/github/ros_java/android_ROS/controller/Publisherr.java" afterPath="$PROJECT_DIR$/src/main/java/com/github/ros_java/android_ROS/controller/Publisherr.java" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/src/main/java/com/github/ros_java/android_ROS/controller/ViewManager.java" afterPath="$PROJECT_DIR$/src/main/java/com/github/ros_java/android_ROS/controller/ViewManager.java" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/src/main/res/raw/gui.txt" afterPath="$PROJECT_DIR$/src/main/res/raw/gui.txt" />
     </list>
     <ignored path="controller.iws" />
     <ignored path=".idea/workspace.xml" />
@@ -94,18 +50,18 @@
       <file leaf-file-name="GuiReader.java" pinned="false" current-in-tab="true">
         <entry file="file://$PROJECT_DIR$/src/main/java/com/github/ros_java/android_ROS/controller/GuiReader.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state vertical-scroll-proportion="1.3484163">
-              <caret line="170" column="52" selection-start-line="170" selection-start-column="52" selection-end-line="170" selection-end-column="52" />
+            <state vertical-scroll-proportion="0.25862068">
+              <caret line="158" column="46" selection-start-line="158" selection-start-column="46" selection-end-line="158" selection-end-column="46" />
               <folding />
             </state>
           </provider>
         </entry>
       </file>
-      <file leaf-file-name="gui.txt" pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/src/main/res/raw/gui.txt">
+      <file leaf-file-name="ViewManager.java" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/src/main/java/com/github/ros_java/android_ROS/controller/ViewManager.java">
           <provider selected="true" editor-type-id="text-editor">
             <state vertical-scroll-proportion="0.0">
-              <caret line="19" column="0" selection-start-line="19" selection-start-column="0" selection-end-line="19" selection-end-column="0" />
+              <caret line="213" column="81" selection-start-line="213" selection-start-column="81" selection-end-line="213" selection-end-column="81" />
               <folding />
             </state>
           </provider>
@@ -138,12 +94,12 @@
         <entry file="file://$PROJECT_DIR$/src/main/java/com/github/ros_java/android_ROS/controller/Controller.java">
           <provider selected="true" editor-type-id="text-editor">
             <state vertical-scroll-proportion="0.0">
-              <caret line="121" column="0" selection-start-line="121" selection-start-column="0" selection-end-line="121" selection-end-column="0" />
+              <caret line="123" column="0" selection-start-line="123" selection-start-column="0" selection-end-line="123" selection-end-column="0" />
               <folding>
-                <element signature="e#3410#3585#0" expanded="true" />
-                <element signature="e#3584#3585#0" expanded="true" />
-                <element signature="e#7257#7486#0" expanded="true" />
-                <element signature="e#7485#7486#0" expanded="true" />
+                <element signature="e#3348#3523#0" expanded="true" />
+                <element signature="e#3522#3523#0" expanded="true" />
+                <element signature="e#7195#7424#0" expanded="true" />
+                <element signature="e#7423#7424#0" expanded="true" />
               </folding>
             </state>
           </provider>
@@ -165,8 +121,27 @@
         <entry file="file://$PROJECT_DIR$/src/main/java/com/github/ros_java/android_ROS/controller/Listener.java">
           <provider selected="true" editor-type-id="text-editor">
             <state vertical-scroll-proportion="0.0">
-              <caret line="73" column="5" selection-start-line="73" selection-start-column="5" selection-end-line="73" selection-end-column="5" />
-              <folding />
+              <caret line="217" column="59" selection-start-line="217" selection-start-column="59" selection-end-line="217" selection-end-column="59" />
+              <folding>
+                <element signature="imports" expanded="true" />
+                <element signature="e#3989#4913#0" expanded="true" />
+                <element signature="e#4610#4644#0" expanded="true" />
+                <element signature="e#4912#4913#0" expanded="true" />
+                <element signature="e#5078#5293#0" expanded="true" />
+                <element signature="e#5292#5293#0" expanded="true" />
+                <element signature="e#5450#5687#0" expanded="true" />
+                <element signature="e#5686#5687#0" expanded="true" />
+                <element signature="e#5844#6081#0" expanded="true" />
+                <element signature="e#6080#6081#0" expanded="true" />
+                <element signature="e#6242#6472#0" expanded="true" />
+                <element signature="e#6471#6472#0" expanded="true" />
+                <element signature="e#6641#6875#0" expanded="true" />
+                <element signature="e#6874#6875#0" expanded="true" />
+                <element signature="e#7047#7283#0" expanded="true" />
+                <element signature="e#7282#7283#0" expanded="true" />
+                <element signature="e#7439#7667#0" expanded="true" />
+                <element signature="e#7666#7667#0" expanded="true" />
+              </folding>
             </state>
           </provider>
         </entry>
@@ -1402,14 +1377,14 @@
       <list>
         <option value="$PROJECT_DIR$/src/main/AndroidManifest.xml" />
         <option value="$PROJECT_DIR$/src/main/res/values/strings.xml" />
-        <option value="$PROJECT_DIR$/src/main/java/com/github/ros_java/android_ROS/controller/ViewManager.java" />
         <option value="$PROJECT_DIR$/src/main/java/com/github/ros_java/android_ROS/controller/ImageListener.java" />
         <option value="$PROJECT_DIR$/src/main/java/com/github/ros_java/android_ROS/controller/InputManager.java" />
         <option value="$PROJECT_DIR$/src/main/java/com/github/ros_java/android_ROS/controller/Publisherr.java" />
         <option value="$PROJECT_DIR$/src/main/java/com/github/ros_java/android_ROS/controller/Controller.java" />
-        <option value="$PROJECT_DIR$/src/main/java/com/github/ros_java/android_ROS/controller/GuiReader.java" />
-        <option value="$PROJECT_DIR$/src/main/res/raw/gui.txt" />
         <option value="$PROJECT_DIR$/src/main/java/com/github/ros_java/android_ROS/controller/Listener.java" />
+        <option value="$PROJECT_DIR$/src/main/java/com/github/ros_java/android_ROS/controller/ViewManager.java" />
+        <option value="$PROJECT_DIR$/src/main/res/raw/gui.txt" />
+        <option value="$PROJECT_DIR$/src/main/java/com/github/ros_java/android_ROS/controller/GuiReader.java" />
       </list>
     </option>
   </component>
@@ -1744,15 +1719,15 @@
   </component>
   <component name="ToolWindowManager">
     <frame x="65" y="24" width="1301" height="639" extended-state="6" />
-    <editor active="true" />
+    <editor active="false" />
     <layout>
       <window_info id="TODO" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="6" side_tool="false" content_ui="tabs" />
-      <window_info id="Messages" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.32842106" sideWeight="0.5" order="7" side_tool="false" content_ui="tabs" />
+      <window_info id="Messages" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.32815534" sideWeight="0.5" order="7" side_tool="false" content_ui="tabs" />
       <window_info id="Build Variants" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="3" side_tool="true" content_ui="tabs" />
       <window_info id="Palette&#9;" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" />
       <window_info id="Capture Analysis" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" />
       <window_info id="Event Log" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="7" side_tool="true" content_ui="tabs" />
-      <window_info id="Android Monitor" active="true" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" show_stripe_button="true" weight="0.51262134" sideWeight="0.5" order="7" side_tool="false" content_ui="tabs" />
+      <window_info id="Android Monitor" active="true" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" show_stripe_button="true" weight="0.49126214" sideWeight="0.5" order="7" side_tool="false" content_ui="tabs" />
       <window_info id="Preview" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.32988048" sideWeight="0.5" order="-1" side_tool="false" content_ui="tabs" />
       <window_info id="Version Control" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="7" side_tool="false" content_ui="tabs" />
       <window_info id="Run" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="2" side_tool="false" content_ui="tabs" />
@@ -1813,10 +1788,10 @@
         <state vertical-scroll-proportion="0.0">
           <caret line="129" column="55" selection-start-line="129" selection-start-column="55" selection-end-line="129" selection-end-column="55" />
           <folding>
-            <element signature="e#3410#3585#0" expanded="true" />
-            <element signature="e#3584#3585#0" expanded="true" />
-            <element signature="e#7257#7486#0" expanded="true" />
-            <element signature="e#7485#7486#0" expanded="true" />
+            <element signature="e#3348#3523#0" expanded="true" />
+            <element signature="e#3522#3523#0" expanded="true" />
+            <element signature="e#7195#7424#0" expanded="true" />
+            <element signature="e#7423#7424#0" expanded="true" />
           </folding>
         </state>
       </provider>
@@ -1868,10 +1843,10 @@
         <state vertical-scroll-proportion="0.0">
           <caret line="129" column="55" selection-start-line="129" selection-start-column="55" selection-end-line="129" selection-end-column="55" />
           <folding>
-            <element signature="e#3410#3585#0" expanded="true" />
-            <element signature="e#3584#3585#0" expanded="true" />
-            <element signature="e#7257#7486#0" expanded="true" />
-            <element signature="e#7485#7486#0" expanded="true" />
+            <element signature="e#3348#3523#0" expanded="true" />
+            <element signature="e#3522#3523#0" expanded="true" />
+            <element signature="e#7195#7424#0" expanded="true" />
+            <element signature="e#7423#7424#0" expanded="true" />
           </folding>
         </state>
       </provider>
@@ -1912,13 +1887,6 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/src/main/java/com/github/ros_java/android_ROS/controller/ViewManager.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state vertical-scroll-proportion="-5.839793">
-          <caret line="32" column="40" selection-start-line="32" selection-start-column="40" selection-end-line="32" selection-end-column="40" />
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/src/main/res/values/strings.xml">
       <provider selected="true" editor-type-id="text-editor">
         <state vertical-scroll-proportion="0.0">
@@ -1956,24 +1924,11 @@
         <state />
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/src/main/res/raw/gui.txt">
+    <entry file="jar://$PROJECT_DIR$/build/intermediates/exploded-aar/org.ros.android_core/android_10/0.2.0/classes.jar!/org/ros/android/view/RosTextView.class">
       <provider selected="true" editor-type-id="text-editor">
-        <state vertical-scroll-proportion="0.0">
-          <caret line="19" column="0" selection-start-line="19" selection-start-column="0" selection-end-line="19" selection-end-column="0" />
+        <state vertical-scroll-proportion="1.0769231">
+          <caret line="52" column="0" selection-start-line="52" selection-start-column="0" selection-end-line="52" selection-end-column="0" />
           <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/main/java/com/github/ros_java/android_ROS/controller/Controller.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state vertical-scroll-proportion="0.0">
-          <caret line="121" column="0" selection-start-line="121" selection-start-column="0" selection-end-line="121" selection-end-column="0" />
-          <folding>
-            <element signature="e#3410#3585#0" expanded="true" />
-            <element signature="e#3584#3585#0" expanded="true" />
-            <element signature="e#7257#7486#0" expanded="true" />
-            <element signature="e#7485#7486#0" expanded="true" />
-          </folding>
         </state>
       </provider>
     </entry>
@@ -1987,11 +1942,43 @@
         </state>
       </provider>
     </entry>
-    <entry file="jar://$PROJECT_DIR$/build/intermediates/exploded-aar/org.ros.android_core/android_10/0.2.0/classes.jar!/org/ros/android/view/RosTextView.class">
+    <entry file="file://$PROJECT_DIR$/src/main/java/com/github/ros_java/android_ROS/controller/Controller.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state vertical-scroll-proportion="1.0769231">
-          <caret line="52" column="0" selection-start-line="52" selection-start-column="0" selection-end-line="52" selection-end-column="0" />
-          <folding />
+        <state vertical-scroll-proportion="0.0">
+          <caret line="123" column="0" selection-start-line="123" selection-start-column="0" selection-end-line="123" selection-end-column="0" />
+          <folding>
+            <element signature="e#3348#3523#0" expanded="true" />
+            <element signature="e#3522#3523#0" expanded="true" />
+            <element signature="e#7195#7424#0" expanded="true" />
+            <element signature="e#7423#7424#0" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/java/com/github/ros_java/android_ROS/controller/Listener.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state vertical-scroll-proportion="0.0">
+          <caret line="217" column="59" selection-start-line="217" selection-start-column="59" selection-end-line="217" selection-end-column="59" />
+          <folding>
+            <element signature="imports" expanded="true" />
+            <element signature="e#3989#4913#0" expanded="true" />
+            <element signature="e#4610#4644#0" expanded="true" />
+            <element signature="e#4912#4913#0" expanded="true" />
+            <element signature="e#5078#5293#0" expanded="true" />
+            <element signature="e#5292#5293#0" expanded="true" />
+            <element signature="e#5450#5687#0" expanded="true" />
+            <element signature="e#5686#5687#0" expanded="true" />
+            <element signature="e#5844#6081#0" expanded="true" />
+            <element signature="e#6080#6081#0" expanded="true" />
+            <element signature="e#6242#6472#0" expanded="true" />
+            <element signature="e#6471#6472#0" expanded="true" />
+            <element signature="e#6641#6875#0" expanded="true" />
+            <element signature="e#6874#6875#0" expanded="true" />
+            <element signature="e#7047#7283#0" expanded="true" />
+            <element signature="e#7282#7283#0" expanded="true" />
+            <element signature="e#7439#7667#0" expanded="true" />
+            <element signature="e#7666#7667#0" expanded="true" />
+          </folding>
         </state>
       </provider>
     </entry>
@@ -2003,18 +1990,26 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/src/main/java/com/github/ros_java/android_ROS/controller/Listener.java">
+    <entry file="file://$PROJECT_DIR$/src/main/java/com/github/ros_java/android_ROS/controller/ViewManager.java">
       <provider selected="true" editor-type-id="text-editor">
         <state vertical-scroll-proportion="0.0">
-          <caret line="73" column="5" selection-start-line="73" selection-start-column="5" selection-end-line="73" selection-end-column="5" />
+          <caret line="213" column="81" selection-start-line="213" selection-start-column="81" selection-end-line="213" selection-end-column="81" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/res/raw/gui.txt">
+      <provider selected="true" editor-type-id="text-editor">
+        <state vertical-scroll-proportion="0.0">
+          <caret line="18" column="0" selection-start-line="18" selection-start-column="0" selection-end-line="18" selection-end-column="0" />
           <folding />
         </state>
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/src/main/java/com/github/ros_java/android_ROS/controller/GuiReader.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state vertical-scroll-proportion="1.3484163">
-          <caret line="170" column="52" selection-start-line="170" selection-start-column="52" selection-end-line="170" selection-end-column="52" />
+        <state vertical-scroll-proportion="0.25862068">
+          <caret line="158" column="46" selection-start-line="158" selection-start-column="46" selection-end-line="158" selection-end-column="46" />
           <folding />
         </state>
       </provider>

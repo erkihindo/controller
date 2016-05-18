@@ -121,8 +121,8 @@ public class Controller extends RosActivity implements Thread.UncaughtExceptionH
         //starts subscribers and publishers
 
         if(listenerList.size() > 0) {
-            Log.i("Starting Listener", listenerList.get(0).topic);
-            nodeMainExecutor.execute(listenerList.get(0).rosTextView, nodeConfiguration);
+
+            nodeMainExecutor.execute(listenerList.get(0).getCurrentRTV(), nodeConfiguration);
         }
 
         for (Publisherr pub: publisherrList
