@@ -62,7 +62,6 @@ public class Publisherr extends AbstractNodeMain {
             protected void loop() throws InterruptedException {
                 //compose and send off message
                 chooseAndSendMessage(publisher);
-
                 Thread.sleep(waitTime);
             }
         });
@@ -85,7 +84,7 @@ public class Publisherr extends AbstractNodeMain {
     }
 
     public Cmd createCmdMessage(Publisher publisher) {
-        if(datas.size() < 5) {
+        if(datas.size() < 6) {
             datas.add("");
             return createCmdMessage(publisher);
         }

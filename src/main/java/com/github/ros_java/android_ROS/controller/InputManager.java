@@ -1,5 +1,7 @@
 package com.github.ros_java.android_ROS.controller;
 
+import android.util.Log;
+
 /**
  * Created by erki on 2/11/16.
  */
@@ -172,8 +174,13 @@ public class InputManager {
         } else if(request.equals("progressBar")) {
             return progressBar;
         }
+        if(request.equals("")) {
+            return 0;
 
+        }
+        Log.i("request", request);
         return Integer.parseInt(request);
+
     }
 
     public static boolean getBool(String request) {

@@ -22,8 +22,8 @@ public class Listener{
     public RosTextView<ImageData> rosTextView;
     private String displayed_message;
     private double lastTimeKicked;
-    private String topic;
-    private String msgTyp;
+    public String topic;
+    public String msgTyp;
 
 
 
@@ -34,10 +34,8 @@ public class Listener{
 
     public void defineTextViews() {
         rosTextView = (RosTextView<ImageData>) app.findViewById(R.id.text);
-        rosTextView.setTopicName(topic);
-        if(msgTyp.equals("msgs/ImageData")) {
-            listenForImageData();
-        }
+
+
 
     }
 
@@ -59,7 +57,7 @@ public class Listener{
 
                     }
                 }
-
+                Log.i("Got message", String.valueOf(smallest_length));
 
                 if (smallest_length < Double.parseDouble(app.getString(R.string.kick_range))) {
                     displayed_message = "KICK";
@@ -76,10 +74,14 @@ public class Listener{
     }
     public void setTopic(String newTop) {
         this.topic = newTop;
+        rosTextView.setTopicName(this.topic);
     }
 
     public void setMsgTyp(String msgTyp) {
         this.msgTyp = msgTyp;
+        if(msgTyp.equals("msgs/ImageData")) {
+            listenForImageData();
+        }
     }
 
 

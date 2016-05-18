@@ -63,6 +63,7 @@ public class Controller extends RosActivity implements Thread.UncaughtExceptionH
         setContentView(R.layout.main);
         image = new ImageListener((this));
         publisherrList = new ArrayList<Publisherr>();
+        listenerList = new ArrayList<Listener>();
         appsettings = new GuiReader(this);
 
         /*
@@ -118,7 +119,9 @@ public class Controller extends RosActivity implements Thread.UncaughtExceptionH
         nodeConfiguration.setMasterUri(getMasterUri());
 
         //starts subscribers and publishers
+
         if(listenerList.size() > 0) {
+            Log.i("Starting Listener", listenerList.get(0).topic);
             nodeMainExecutor.execute(listenerList.get(0).rosTextView, nodeConfiguration);
         }
 

@@ -168,6 +168,7 @@ public class GuiReader {
                 list.remove(listListenerIterator);
                 listListenerIterator--;
             } else {
+                Controller.listenerList.add(newSub);
                 break;
             }
         }
