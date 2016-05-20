@@ -11,10 +11,7 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="ac399082-e6b8-4a9b-b2bd-62b979c59d75" name="Default" comment="">
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/.idea/misc.xml" afterPath="$PROJECT_DIR$/.idea/misc.xml" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/.idea/workspace.xml" afterPath="$PROJECT_DIR$/.idea/workspace.xml" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/src/main/java/com/github/ros_java/android_ROS/controller/GuiReader.java" afterPath="$PROJECT_DIR$/src/main/java/com/github/ros_java/android_ROS/controller/GuiReader.java" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/src/main/java/com/github/ros_java/android_ROS/controller/Listener.java" afterPath="$PROJECT_DIR$/src/main/java/com/github/ros_java/android_ROS/controller/Listener.java" />
     </list>
     <ignored path="controller.iws" />
     <ignored path=".idea/workspace.xml" />
@@ -38,8 +35,8 @@
       <file leaf-file-name="GuiReader.java" pinned="false" current-in-tab="true">
         <entry file="file://$PROJECT_DIR$/src/main/java/com/github/ros_java/android_ROS/controller/GuiReader.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state vertical-scroll-proportion="0.70789474">
-              <caret line="99" column="63" selection-start-line="99" selection-start-column="63" selection-end-line="99" selection-end-column="63" />
+            <state vertical-scroll-proportion="2.4763157">
+              <caret line="86" column="20" selection-start-line="86" selection-start-column="20" selection-end-line="86" selection-end-column="20" />
               <folding />
             </state>
           </provider>
@@ -2087,8 +2084,8 @@
     </entry>
     <entry file="file://$PROJECT_DIR$/src/main/java/com/github/ros_java/android_ROS/controller/GuiReader.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state vertical-scroll-proportion="0.70789474">
-          <caret line="99" column="63" selection-start-line="99" selection-start-column="63" selection-end-line="99" selection-end-column="63" />
+        <state vertical-scroll-proportion="2.4763157">
+          <caret line="86" column="20" selection-start-line="86" selection-start-column="20" selection-end-line="86" selection-end-column="20" />
           <folding />
         </state>
       </provider>
