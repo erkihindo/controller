@@ -97,7 +97,7 @@ public class GuiReader {
                 list.remove(listIterator);
                 inputHandler(list);
                 listIterator--;
-            } else if(list.get(listIterator).equals("publisher:")) {
+            } else if(list.get(listIterator).equals("publishers:")) {
                 list.remove(listIterator);
                 publisherHandler(list);
                 listIterator--;

@@ -129,7 +129,6 @@ public class Listener{
 
                     }
                 }
-                Log.i("Got message", java.lang.String.valueOf(smallest_length));
 
                 if (smallest_length < Double.parseDouble(app.getString(R.string.kick_range))) {
                     displayed_message = "KICK";
