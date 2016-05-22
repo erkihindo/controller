@@ -64,24 +64,9 @@ public class Controller extends RosActivity implements Thread.UncaughtExceptionH
         image = new ImageListener((this));
         publisherrList = new ArrayList<Publisherr>();
         listenerList = new ArrayList<Listener>();
+
+        //starts settings manager
         appsettings = new GuiReader(this);
-
-        /*
-
-
-        defineEditTextFields();
-
-        defineSlider();
-
-        defineJoySticks();
-
-        defineButton();
-
-        defineImageViews();
-        */
-        
-
-
 
 
     }
@@ -95,21 +80,7 @@ public class Controller extends RosActivity implements Thread.UncaughtExceptionH
 
 
 
-
-
-
-
-
-
-
-
-
-
-
-
-    //Defines what joystick(left) movement does
-
-
+    //Is called when the IP is entered
     @Override
     protected void init(NodeMainExecutor nodeMainExecutor) {
         // At this point, the user has already been prompted to either enter the URI
@@ -151,7 +122,7 @@ public class Controller extends RosActivity implements Thread.UncaughtExceptionH
     }
 
 
-
+    //Bluetooth listener
     @Override
     public boolean onKeyDown(int keyCode, KeyEvent event) {
         boolean handled = false;
@@ -198,31 +169,23 @@ public class Controller extends RosActivity implements Thread.UncaughtExceptionH
 
 
     private static boolean isFireKey(int keyCode) {
-        // Here we treat Button_A and DPAD_CENTER as the primary action
-        // keys for the game.
         return keyCode == 103;
     }
 
     private static boolean isSpeedUpKey(int keyCode) {
-        // Here we treat Button_A and DPAD_CENTER as the primary action
-        // keys for the game.
         return keyCode == 23;
     }
 
     private static boolean isSpeedDownKey(int keyCode) {
-        // Here we treat Button_A and DPAD_CENTER as the primary action
-        // keys for the game.
         return keyCode == 100;
     }
 
 
     private static boolean isBackKey(int keyCode) {
-        // Here we treat Button_A and DPAD_CENTER as the primary action
-        // keys for the game.
         return keyCode == 97 || keyCode == 100;
     }
 
-
+    //Bluetooth listener
     @Override
     public boolean onGenericMotionEvent(MotionEvent event) {
 
@@ -254,15 +217,14 @@ public class Controller extends RosActivity implements Thread.UncaughtExceptionH
         return super.onGenericMotionEvent(event);
     }
 
+
     public void kickTrueDelay() {
-
-
         this.timer = new Timer();
 
         TimerTask action = new TimerTask() {
             public void run() {
                 System.out.println("Goes to false");
-                InputManager.rightJSup = false; //as you said in the comments: abc is a static method
+                InputManager.rightJSup = false;
             }
 
         };

@@ -17,11 +17,10 @@ public class ImageListener {
         this.app = app;
     }
 
-
+    //Finds image object and defines type/topic
     public static void defineImageViews(String topic) {
         rosImageView = (RosImageView2<sensor_msgs.CompressedImage>)app.findViewById(R.id.image);
         rosImageView.setMessageType(sensor_msgs.CompressedImage._TYPE);
-        //rosImageView.setTopicName(app.getResources().getString(R.string.sub_image_topic));
         rosImageView.setTopicName(topic);
         rosImageView.setMessageToBitmapCallable(new BitmapFromCompressedImage());
     }

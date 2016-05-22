@@ -14,7 +14,7 @@ listener:
 publisher:
 	-topic: /com_cmd
 	msg_type: msgs/Cmd
-	data: leftJSdistance leftJSangle rightYSxangle rightJSup
+	data: leftJSdistance leftJSangle rightJSxangle rightJSup
 
 image_listener:
 	-topic: /front_cam/image/compressed

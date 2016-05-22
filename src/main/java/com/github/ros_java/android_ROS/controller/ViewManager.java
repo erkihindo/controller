@@ -26,9 +26,6 @@ public class ViewManager {
     static Activity app;
     //displays the camera`s image
 
-
-
-
     //Joystick locations
     public static TextView txtX1, txtY1;
     public static TextView txtX2, txtY2;
@@ -143,7 +140,7 @@ public class ViewManager {
             @Override
             public void onStopTrackingTouch(SeekBar seekBar) {
                 Log.i("Seekbar", String.valueOf(seekBar.getProgress()));
-                InputManager.progressBar = seekBar.getProgress();
+                InputManager.slider = seekBar.getProgress();
 
 
             }

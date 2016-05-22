@@ -1,1 +1,0 @@
-/home/viki/ROS_Controller/src/android_ROS/controller/build/intermediates/classes/test/debug

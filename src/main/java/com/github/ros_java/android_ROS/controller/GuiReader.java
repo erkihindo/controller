@@ -70,7 +70,6 @@ public class GuiReader {
             br.close();
         }
         catch (IOException e) {
-            //You'll need to add proper error handling here
             System.out.println(e);
             return false;
         }

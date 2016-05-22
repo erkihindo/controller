@@ -11,7 +11,7 @@ public class InputManager {
     public static int leftJSy = 0;
     public static float leftJSdistance = 0;
     public static float leftJSangle = 0;
-    public static float leftYSxangle = 0;
+    public static float leftJSxangle = 0;
     public static boolean leftJSup = false;
 
 
@@ -21,13 +21,13 @@ public class InputManager {
     public static int rightJSy = 0;
     public static float rightJSdistance = 0;
     public static float rightJSangle = 0;
-    public static float rightYSxangle = 0;
+    public static float rightJSxangle = 0;
     public static boolean rightJSup = false;
 
 
     public static String enteredText = "";
 
-    public static int progressBar = 0;
+    public static int slider = 0;
 
     public static boolean buttonPress = false;
 
@@ -42,14 +42,14 @@ public class InputManager {
 
         leftJSdistance = (float) Math.sqrt(Math.pow(x, 2) + Math.pow(y, 2))/25;
 
-        if(progressBar > 0) {
-            leftJSdistance = leftJSdistance * progressBar;
+        if(slider > 0) {
+            leftJSdistance = leftJSdistance * slider;
         }
 
 
         double turnD = -1*x/10.0*Math.PI;
-        leftYSxangle = (float) turnD;
-        if(x <=2 && x >= -2 && y >= 6) leftYSxangle = 0;
+        leftJSxangle = (float) turnD;
+        if(x <=2 && x >= -2 && y >= 6) leftJSxangle = 0;
 
         double angle1 = Math.atan2(10, 0);
         double angle2 = Math.atan2(y, x );
@@ -70,15 +70,15 @@ public class InputManager {
 
         double turnD = -1*x/10.0*Math.PI;
 
-        rightYSxangle = (float) turnD;
-        if(x <=2 && x >= -2 && y >= 6) rightYSxangle = 0;
+        rightJSxangle = (float) turnD;
+        if(x <=2 && x >= -2 && y >= 6) rightJSxangle = 0;
 
 
 
         rightJSdistance = (float) Math.sqrt(Math.pow(x, 2) + Math.pow(y, 2))/25;
 
-        if(progressBar != 0) {
-            rightJSdistance = rightJSdistance * progressBar;
+        if(slider != 0) {
+            rightJSdistance = rightJSdistance * slider;
         }
 
         double angle1 = Math.atan2(10, 0);
@@ -107,12 +107,12 @@ public class InputManager {
             return rightJSdistance;
         } else if(request.equals("rightJSangle")) {
             return rightJSangle;
-        } else if(request.equals("rightYSxangle")) {
-            return rightYSxangle;
+        } else if(request.equals("rightJSxangle")) {
+            return rightJSxangle;
         } else if(request.equals("enteredText")) {
             return Float.parseFloat(enteredText);
-        } else if(request.equals("progressBar")) {
-            return progressBar;
+        } else if(request.equals("slider")) {
+            return slider;
         }
 
         return Float.parseFloat(request);
@@ -136,12 +136,12 @@ public class InputManager {
             return Byte.parseByte(String.valueOf(rightJSdistance));
         } else if(request.equals("rightJSangle")) {
             return Byte.parseByte(String.valueOf(rightJSangle));
-        } else if(request.equals("rightYSxangle")) {
-            return Byte.parseByte(String.valueOf(rightYSxangle));
+        } else if(request.equals("rightJSxangle")) {
+            return Byte.parseByte(String.valueOf(rightJSxangle));
         } else if(request.equals("enteredText")) {
             return Byte.parseByte(String.valueOf(enteredText));
-        } else if(request.equals("progressBar")) {
-            return Byte.parseByte(String.valueOf(progressBar));
+        } else if(request.equals("slider")) {
+            return Byte.parseByte(String.valueOf(slider));
         }
 
         return Byte.parseByte(request);
@@ -167,12 +167,12 @@ public class InputManager {
             return (int) rightJSdistance;
         } else if(request.equals("rightJSangle")) {
             return (int) rightJSangle;
-        } else if(request.equals("rightYSxangle")) {
-            return (int) rightYSxangle;
+        } else if(request.equals("rightJSxangle")) {
+            return (int) rightJSxangle;
         } else if(request.equals("enteredText")) {
             return Integer.parseInt(enteredText);
-        } else if(request.equals("progressBar")) {
-            return progressBar;
+        } else if(request.equals("slider")) {
+            return slider;
         }
         if(request.equals("")) {
             return 0;
@@ -217,16 +217,16 @@ public class InputManager {
             return String.valueOf(rightJSdistance);
         } else if(request.equals("rightJSangle")) {
             return String.valueOf(rightJSangle);
-        } else if(request.equals("rightYSxangle")) {
-            return String.valueOf(rightYSxangle);
+        } else if(request.equals("rightJSxangle")) {
+            return String.valueOf(rightJSxangle);
         } else if(request.equals("rightJSup")) {
             return String.valueOf(rightJSup);
         }
 
         else if(request.equals("enteredText")) {
             return enteredText;
-        } else if(request.equals("progressBar")) {
-            return String.valueOf(progressBar);
+        } else if(request.equals("slider")) {
+            return String.valueOf(slider);
         }
         return request;
     }
